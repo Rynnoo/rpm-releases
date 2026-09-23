@@ -577,25 +577,25 @@
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
-        "version": "0.1.15",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260923-154603-f2c524ac/gcord-GCord.exe",
+        "version": "0.1.16",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260923-221227-06d3bae6/gcord-GCord.exe",
         "fileName": "GCord.exe",
-        "sha256": "4DE54B56E44E90A2133FA1A1061411FA7F9B4ECBD9D058CB39B325ECE0562AF0",
-        "sizeBytes": 1285120,
-        "notes": "Detected local build 0.1.15. Review this release before publishing.",
-        "publishedAt": "2026-09-23T15:46:03.8068569+00:00",
+        "sha256": "0C99E2039383B18FBF92288D4A11ABC23394ED57DA7AC88E48CEF5FF3F556597",
+        "sizeBytes": 1303040,
+        "notes": "Detected local build 0.1.16. Review this release before publishing.",
+        "publishedAt": "2026-09-23T22:12:27.6172242+00:00",
         "companionInstaller": {
           "fileName": "GCord-Setup.msi",
-          "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260923-154603-f2c524ac/gcord-GCord-Setup.msi",
-          "sha256": "92BCB90924912C36518A270905DF7E9C2AA0258317EEC41B587178AE0AE5518C",
-          "sizeBytes": 724992
+          "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260923-221227-06d3bae6/gcord-GCord-Setup.msi",
+          "sha256": "95EF137B3C761131C4D658597FD8FA5E4DE4DCD9C5B1E43C05F75BAD1E0A1879",
+          "sizeBytes": 729088
         }
       },
       "details": {
         "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFfSURBVHhe7ZvBSsNAEIYDSRDBQx9Lbz6Cb2IPhaQnH03fJLknEpliQvl32xXsCu58ge/yZ4btfE1DL1NVZ9fubdk1x8/Xpp/e635eSsJmstlsxvOZt6vt5pe6nwdtLJDBZo0Nr4VFs0mwR8LJN68Mp59D0037yE0X2OxViS\u002B8n2KzVxp6AwEaeAMBGngDARp4408FtI\u002BH5e7\u002B4SpWo305QYAGOUEAAhAQDKwgAAEICPpyggANcvJbAe3TIYn2pPhXArQ2hvakQIAGOUEAAhAQfGAFAQhAQNC3orUxtCcFAjRIoX89Y2jP1luCAD0whvasIAABCAhqFQQgAAFB3y3OvgQCNEihB8bQnhUEIAABQa2CAAQgIOi7xdmXQIAG3kCABt5AgAbeQIAG3rClqQ8NvWCzszb3vTg56k0HjNsescfV2fo4P8f2hz08CWMw/Hqd1ue7aV/ii9Fmstl0ff4LGSD9Ka2u6KMAAAAASUVORK5CYII=",
         "category": "Voice \u0026 collaboration",
         "shortName": "GCord",
-        "versionLabel": "0.1.15",
+        "versionLabel": "0.1.16",
         "summary": "A native Windows launcher for GCord\u2019s voice and virtual-camera rooms. This release connects to the hosted control service and LiveKit media service.",
         "features": [
           "Create a private room and share an invite.",
