@@ -1,8 +1,8 @@
 {
-  "version": "1.0.13",
-  "url": "https://github.com/Rynnoo/rpm-releases/releases/download/launcher-v1.0.13/RPM-Public.exe",
-  "edition": "public",
-  "sha256": "a58b2adcb22894f690d4da0349ac6862b1b3acf7822d02947e6eb82ff8b2aa6a",
   "schemaVersion": 1,
-  "sizeBytes": 73453375
+  "version": "1.0.14",
+  "sha256": "da8f4bf3830fad6dc1896d98ecc654113850250711479b6027c11720e74b3a0b",
+  "edition": "public",
+  "url": "https://github.com/Rynnoo/rpm-releases/releases/download/launcher-v1.0.14/RPM-Public.exe",
+  "sizeBytes": 73453931
 }
