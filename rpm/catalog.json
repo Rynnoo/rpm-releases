@@ -583,46 +583,6 @@
       }
     },
     {
-      "id": "gcord",
-      "name": "GCord",
-      "description": "Voice rooms and shared game feeds for speedrunning crews.",
-      "kind": "application",
-      "groupId": null,
-      "release": {
-        "practice": null,
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.1.43",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260928-232243-e1ab8064/gcord-GCord.exe",
-        "fileName": "GCord.exe",
-        "sha256": "AE93904E09748DD7354139BD7748FFD283E9A070C8A10025E98F1884EDE5EFEB",
-        "sizeBytes": 1872896,
-        "notes": "Detected local build 0.1.43. Review this release before publishing.",
-        "publishedAt": "2026-09-28T23:22:43.5892007+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFfSURBVHhe7ZvBSsNAEIYDSRDBQx9Lbz6Cb2IPhaQnH03fJLknEpliQvl32xXsCu58ge/yZ4btfE1DL1NVZ9fubdk1x8/Xpp/e635eSsJmstlsxvOZt6vt5pe6nwdtLJDBZo0Nr4VFs0mwR8LJN68Mp59D0037yE0X2OxViS\u002B8n2KzVxp6AwEaeAMBGngDARp4408FtI\u002BH5e7\u002B4SpWo305QYAGOUEAAhAQDKwgAAEICPpyggANcvJbAe3TIYn2pPhXArQ2hvakQIAGOUEAAhAQfGAFAQhAQNC3orUxtCcFAjRIoX89Y2jP1luCAD0whvasIAABCAhqFQQgAAFB3y3OvgQCNEihB8bQnhUEIAABQa2CAAQgIOi7xdmXQIAG3kCABt5AgAbeQIAG3rClqQ8NvWCzszb3vTg56k0HjNsescfV2fo4P8f2hz08CWMw/Hqd1ue7aV/ii9Fmstl0ff4LGSD9Ka2u6KMAAAAASUVORK5CYII=",
-        "category": "Voice \u0026 collaboration",
-        "shortName": "GCord",
-        "versionLabel": "0.1.43",
-        "summary": "A native Windows launcher for GCord\u2019s voice and virtual-camera rooms. This release connects to the hosted control service and LiveKit media service.",
-        "features": [
-          "Create a private room and share an invite.",
-          "Publish your microphone, camera and a separate game feed.",
-          "Use OBS Virtual Camera as the bridge for an SCU capture feed."
-        ],
-        "setup": [
-          "Requires an internet connection and a supported Chromium browser.",
-          "Server, diagnostics and mobile packages are not installed with the desktop client.",
-          "Launch the portable GCord executable."
-        ],
-        "accent": "#766184",
-        "mark": "GC"
-      }
-    },
-    {
       "id": "usamune-practice",
       "name": "Usamune Practice",
       "description": "SM64 practice ROM patch",
@@ -663,6 +623,46 @@
         "setup": [],
         "accent": "#CB5A36",
         "mark": "UP"
+      }
+    },
+    {
+      "id": "gcord",
+      "name": "GCord",
+      "description": "Voice rooms and shared game feeds for speedrunning crews.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "practice": null,
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.1.44",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260928-234009-1d8b4491/gcord-GCord.exe",
+        "fileName": "GCord.exe",
+        "sha256": "F57165E7C127F455E893C7E5F8CA0DB69DF594094FE61E7ED9A55892683F9646",
+        "sizeBytes": 1874432,
+        "notes": "Detected local build 0.1.44. Review this release before publishing.",
+        "publishedAt": "2026-09-28T23:40:09.0786346+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFfSURBVHhe7ZvBSsNAEIYDSRDBQx9Lbz6Cb2IPhaQnH03fJLknEpliQvl32xXsCu58ge/yZ4btfE1DL1NVZ9fubdk1x8/Xpp/e635eSsJmstlsxvOZt6vt5pe6nwdtLJDBZo0Nr4VFs0mwR8LJN68Mp59D0037yE0X2OxViS\u002B8n2KzVxp6AwEaeAMBGngDARp4408FtI\u002BH5e7\u002B4SpWo305QYAGOUEAAhAQDKwgAAEICPpyggANcvJbAe3TIYn2pPhXArQ2hvakQIAGOUEAAhAQfGAFAQhAQNC3orUxtCcFAjRIoX89Y2jP1luCAD0whvasIAABCAhqFQQgAAFB3y3OvgQCNEihB8bQnhUEIAABQa2CAAQgIOi7xdmXQIAG3kCABt5AgAbeQIAG3rClqQ8NvWCzszb3vTg56k0HjNsescfV2fo4P8f2hz08CWMw/Hqd1ue7aV/ii9Fmstl0ff4LGSD9Ka2u6KMAAAAASUVORK5CYII=",
+        "category": "Voice \u0026 collaboration",
+        "shortName": "GCord",
+        "versionLabel": "0.1.44",
+        "summary": "A native Windows launcher for GCord\u2019s voice and virtual-camera rooms. This release connects to the hosted control service and LiveKit media service.",
+        "features": [
+          "Create a private room and share an invite.",
+          "Publish your microphone, camera and a separate game feed.",
+          "Use OBS Virtual Camera as the bridge for an SCU capture feed."
+        ],
+        "setup": [
+          "Requires an internet connection and a supported Chromium browser.",
+          "Server, diagnostics and mobile packages are not installed with the desktop client.",
+          "Launch the portable GCord executable."
+        ],
+        "accent": "#766184",
+        "mark": "GC"
       }
     }
   ]
