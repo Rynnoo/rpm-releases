@@ -16,6 +16,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "practice": null,
         "format": "zip",
         "entryPoint": "Dolphin.exe",
         "preservePaths": [
@@ -58,6 +59,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -97,6 +99,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "practice": null,
         "format": "zip",
         "entryPoint": "SM64PracticeOverlay.exe",
         "preservePaths": [
@@ -138,6 +141,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -173,6 +177,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -208,6 +213,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -243,6 +249,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -278,6 +285,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -313,6 +321,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -348,6 +357,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -383,6 +393,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -418,6 +429,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -453,6 +465,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -492,6 +505,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "practice": null,
         "format": "zip",
         "entryPoint": "AutoSplit64Custom.exe",
         "preservePaths": [
@@ -538,6 +552,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
@@ -574,23 +589,24 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "practice": null,
         "format": "singleFile",
         "entryPoint": "",
         "preservePaths": [],
-        "version": "0.1.41",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260928-184549-0263d0ed/gcord-GCord.exe",
+        "version": "0.1.43",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260928-232243-e1ab8064/gcord-GCord.exe",
         "fileName": "GCord.exe",
-        "sha256": "5161BA5FF455F950C7F8FE2F754FA0DD2353D85F2D22796F787BE917EB569949",
-        "sizeBytes": 1871360,
-        "notes": "Detected local build 0.1.41. Review this release before publishing.",
-        "publishedAt": "2026-09-28T18:45:49.1604335+00:00",
+        "sha256": "AE93904E09748DD7354139BD7748FFD283E9A070C8A10025E98F1884EDE5EFEB",
+        "sizeBytes": 1872896,
+        "notes": "Detected local build 0.1.43. Review this release before publishing.",
+        "publishedAt": "2026-09-28T23:22:43.5892007+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFfSURBVHhe7ZvBSsNAEIYDSRDBQx9Lbz6Cb2IPhaQnH03fJLknEpliQvl32xXsCu58ge/yZ4btfE1DL1NVZ9fubdk1x8/Xpp/e635eSsJmstlsxvOZt6vt5pe6nwdtLJDBZo0Nr4VFs0mwR8LJN68Mp59D0037yE0X2OxViS\u002B8n2KzVxp6AwEaeAMBGngDARp4408FtI\u002BH5e7\u002B4SpWo305QYAGOUEAAhAQDKwgAAEICPpyggANcvJbAe3TIYn2pPhXArQ2hvakQIAGOUEAAhAQfGAFAQhAQNC3orUxtCcFAjRIoX89Y2jP1luCAD0whvasIAABCAhqFQQgAAFB3y3OvgQCNEihB8bQnhUEIAABQa2CAAQgIOi7xdmXQIAG3kCABt5AgAbeQIAG3rClqQ8NvWCzszb3vTg56k0HjNsescfV2fo4P8f2hz08CWMw/Hqd1ue7aV/ii9Fmstl0ff4LGSD9Ka2u6KMAAAAASUVORK5CYII=",
         "category": "Voice \u0026 collaboration",
         "shortName": "GCord",
-        "versionLabel": "0.1.41",
+        "versionLabel": "0.1.43",
         "summary": "A native Windows launcher for GCord\u2019s voice and virtual-camera rooms. This release connects to the hosted control service and LiveKit media service.",
         "features": [
           "Create a private room and share an invite.",
@@ -604,6 +620,49 @@
         ],
         "accent": "#766184",
         "mark": "GC"
+      }
+    },
+    {
+      "id": "usamune-practice",
+      "name": "Usamune Practice",
+      "description": "SM64 practice ROM patch",
+      "kind": "practiceRom",
+      "groupId": null,
+      "release": {
+        "practice": {
+          "patch_format": "BPS1",
+          "source_byte_order": "z64",
+          "version": 64,
+          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
+          "output_sha256": "44a21548dc5ae224f6f94cc66ac49b08d7b5ace276625e4b21db140607d6f58f",
+          "output_filename": "SM64_USAMUNE_Practice.z64",
+          "patch_file": "Usamune_Practice_v64_JP.bps",
+          "save_file": "SM64_USAMUNE_Practice.sav",
+          "save_size_bytes": 131072,
+          "semanticVersion": "0.0.64"
+        },
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.64",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260928-232243-e1ab8064/usamune-practice-Usamune_Practice_v64_JP.bps",
+        "fileName": "Usamune_Practice_v64_JP.bps",
+        "sha256": "F14821B34157F4FCCC162301B812B849EE17D105CDA807922AAB34F174B4DC92",
+        "sizeBytes": 166296,
+        "notes": "",
+        "publishedAt": "2026-09-28T23:22:43.6017337+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "SM64 / Practice ROM",
+        "shortName": "Usamune Practice",
+        "versionLabel": "v64",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "UP"
       }
     }
   ]
