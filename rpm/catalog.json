@@ -135,42 +135,6 @@
       }
     },
     {
-      "id": "livesplit-bettersubsplits",
-      "name": "Better Subsplits",
-      "description": "A customized subsplits component for your LiveSplit layout.",
-      "kind": "liveSplitPlugin",
-      "groupId": "livesplit",
-      "release": {
-        "practice": null,
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.206",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/raip-20260913-180515-5eee4af8/livesplit-bettersubsplits-LiveSplit.BetterSubsplits.dll",
-        "fileName": "LiveSplit.BetterSubsplits.dll",
-        "sha256": "8E5A78B8F3537A73978A4777B04E02A5718CFB0FC9864FBCE62D51BE495FE8B8",
-        "sizeBytes": 409600,
-        "notes": "Canonical release: v206-render-pipeline-fix. Imported checksum matches current-plugins.json.",
-        "publishedAt": "2026-09-13T14:05:14.5970548-04:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "Timing \u0026 splits",
-        "shortName": "Better Subsplits",
-        "versionLabel": "v206",
-        "summary": "Displays your split list using the Better Subsplits component.",
-        "features": [],
-        "setup": [
-          "Close LiveSplit before installing or updating this component.",
-          "Choose the folder containing LiveSplit.exe in Settings. RPM installs only this DLL into Components.",
-          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
-        ],
-        "accent": "#66725B",
-        "mark": "BS"
-      }
-    },
-    {
       "id": "livesplit-detailedtimer",
       "name": "Detailed Timer",
       "description": "Run and segment timers in one LiveSplit component.",
@@ -663,6 +627,42 @@
         ],
         "accent": "#766184",
         "mark": "GC"
+      }
+    },
+    {
+      "id": "livesplit-bettersubsplits",
+      "name": "Better Subsplits",
+      "description": "A customized subsplits component for your LiveSplit layout.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "practice": null,
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.207",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261003-233917-cf5e0d25/livesplit-bettersubsplits-LiveSplit.BetterSubsplits.dll",
+        "fileName": "LiveSplit.BetterSubsplits.dll",
+        "sha256": "A34F07E0C67F6D344EE08B6A7528421884931CAD28A08F900DB4C2CC812CB849",
+        "sizeBytes": 409600,
+        "notes": "Detected local build 0.0.207. Review this release before publishing.",
+        "publishedAt": "2026-10-03T23:39:17.9203841+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Better Subsplits",
+        "versionLabel": "v207",
+        "summary": "Displays your split list using the Better Subsplits component.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "BS"
       }
     }
   ]
