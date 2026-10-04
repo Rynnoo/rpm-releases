@@ -575,51 +575,6 @@
       }
     },
     {
-      "id": "usamune-practice",
-      "name": "Usamune Practice",
-      "description": "SM64 practice ROM patch",
-      "kind": "practiceRom",
-      "groupId": null,
-      "release": {
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": {
-          "patch_format": "BPS1",
-          "source_byte_order": "z64",
-          "version": 64,
-          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
-          "output_sha256": "44a21548dc5ae224f6f94cc66ac49b08d7b5ace276625e4b21db140607d6f58f",
-          "output_filename": "SM64_USAMUNE_Practice.z64",
-          "patch_file": "Usamune_Practice_v64_JP.bps",
-          "save_file": "SM64_USAMUNE_Practice.sav",
-          "save_size_bytes": 131072,
-          "semanticVersion": "0.0.64"
-        },
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.64",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20260928-232243-e1ab8064/usamune-practice-Usamune_Practice_v64_JP.bps",
-        "fileName": "Usamune_Practice_v64_JP.bps",
-        "sha256": "F14821B34157F4FCCC162301B812B849EE17D105CDA807922AAB34F174B4DC92",
-        "sizeBytes": 166296,
-        "notes": "",
-        "publishedAt": "2026-09-28T23:22:43.6017337+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "SM64 / Practice ROM",
-        "shortName": "Usamune Practice",
-        "versionLabel": "v64",
-        "summary": "",
-        "features": [],
-        "setup": [],
-        "accent": "#CB5A36",
-        "mark": "UP"
-      }
-    },
-    {
       "id": "gcord",
       "name": "GCord",
       "description": "Voice rooms and shared game feeds for speedrunning crews.",
@@ -700,6 +655,51 @@
       }
     },
     {
+      "id": "usamune-practice",
+      "name": "Usamune Practice",
+      "description": "SM64 practice ROM patch",
+      "kind": "practiceRom",
+      "groupId": null,
+      "release": {
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": {
+          "patch_format": "BPS1",
+          "source_byte_order": "z64",
+          "version": 67,
+          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
+          "output_sha256": "dcbe084f28d1d1b884dfc09c3f04806d0da5f62ec2f7823aec8dcb41ad5dee1e",
+          "output_filename": "SM64_USAMUNE_Practice.z64",
+          "patch_file": "Usamune_Practice_v67_JP.bps",
+          "save_file": "SM64_USAMUNE_Practice.sav",
+          "save_size_bytes": 131072,
+          "semanticVersion": "0.0.67"
+        },
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.67",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-151009-616d31c9/usamune-practice-Usamune_Practice_v67_JP.bps",
+        "fileName": "Usamune_Practice_v67_JP.bps",
+        "sha256": "E43ECBD9946D5D0626243092BBBEEE89DB8784BBEBA0ED29959CC05975F67994",
+        "sizeBytes": 170805,
+        "notes": "",
+        "publishedAt": "2026-10-04T15:10:09.1093982+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "SM64 / Practice ROM",
+        "shortName": "Usamune Practice",
+        "versionLabel": "v67",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "UP"
+      }
+    },
+    {
       "id": "livesplit-custom",
       "name": "LiveSplit Custom",
       "description": "LiveSplit with Rynnoo\u0027s core fixes and all its bundled components.",
@@ -777,7 +777,7 @@
           "LiveSplit.AutoSplitters.xml": "1DFEA28A84CCAD347B7FE9D687ECD56B8E1B0D2E34E72AFE378EB52EA789D7EB",
           "LiveSplit.Core.dll": "B4A7ACB68C2ACDE658A762A475CE7330DB243C1061391B3803282F16F88E71B5",
           "LiveSplit.Core.dll.config": "F309AE592EB2E040D704CB8D3F6274EB6AC00550790351838D41ACEC089E32A4",
-          "LiveSplit.LayoutBrowser.dll": "F85E8B60A0D0205DAAB13A378873A3AE3D137046AB914F638B5C6B60D5CA957D",
+          "LiveSplit.LayoutBrowser.dll": "EE2B75DC36D6472E736401CAF964C16366790E194CC43F09973468330F49B3D8",
           "LiveSplit.LayoutPreview.exe": "655B48762F8FA2F2739859CD62A3E9155670A3FE37B046FC8DC0CD4730CA5018",
           "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
           "LiveSplit.Register.exe": "6638E918444C3865BA5B547AD21B6B8EDDA3825C2A756ED0C1D8D7F740E3CBA8",
@@ -882,20 +882,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.2",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-033540-87f4f546/livesplit-custom-LiveSplit-Custom-1.0.2.zip",
-        "fileName": "LiveSplit-Custom-1.0.2.zip",
-        "sha256": "DA429E98A17701ABD4BB583AB42A2AF61C13E5C23584470C7D03BB52CCD2D784",
-        "sizeBytes": 16895948,
+        "version": "1.0.3",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-151009-616d31c9/livesplit-custom-LiveSplit-Custom-1.0.3.zip",
+        "fileName": "LiveSplit-Custom-1.0.3.zip",
+        "sha256": "38374ECB3F79294F0EB7CD2F8493A21728D82C6FBD87D3526547974DC0F15EE2",
+        "sizeBytes": 17198866,
         "notes": "Detected local build 1.0.0. Review this release before publishing.",
-        "publishedAt": "2026-10-04T03:35:40.4315499+00:00",
+        "publishedAt": "2026-10-04T15:10:09.3139087+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "LiveSplit Custom",
-        "versionLabel": "1.0.2",
+        "versionLabel": "1.0.3",
         "summary": "Your custom LiveSplit core, with its components included. RPM checks for published updates automatically.",
         "features": [
           "Complete portable LiveSplit installation",
