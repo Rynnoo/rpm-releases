@@ -882,20 +882,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.3",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-151009-616d31c9/livesplit-custom-LiveSplit-Custom-1.0.3.zip",
-        "fileName": "LiveSplit-Custom-1.0.3.zip",
-        "sha256": "38374ECB3F79294F0EB7CD2F8493A21728D82C6FBD87D3526547974DC0F15EE2",
-        "sizeBytes": 17198866,
+        "version": "1.0.4",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-152543-95dbc645/livesplit-custom-LiveSplit-Custom-1.0.4.zip",
+        "fileName": "LiveSplit-Custom-1.0.4.zip",
+        "sha256": "48B49F284A352E78C360C64F853E96425E02D09940CBDACD54CB28C79CC1CC0C",
+        "sizeBytes": 16896133,
         "notes": "Detected local build 1.0.0. Review this release before publishing.",
-        "publishedAt": "2026-10-04T15:10:09.3139087+00:00",
+        "publishedAt": "2026-10-04T15:25:43.3062105+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "LiveSplit Custom",
-        "versionLabel": "1.0.3",
+        "versionLabel": "1.0.4",
         "summary": "Your custom LiveSplit core, with its components included. RPM checks for published updates automatically.",
         "features": [
           "Complete portable LiveSplit installation",
