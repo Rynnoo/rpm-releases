@@ -16,6 +16,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -61,6 +62,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -103,6 +105,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -147,6 +150,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -185,6 +189,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -223,6 +228,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -261,6 +267,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -299,6 +306,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -337,6 +345,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -375,6 +384,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -413,6 +423,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -451,6 +462,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -493,6 +505,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -542,6 +555,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -581,6 +595,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -623,6 +638,7 @@
       "kind": "liveSplitPlugin",
       "groupId": "livesplit",
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
@@ -661,6 +677,7 @@
       "kind": "practiceRom",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {},
         "bundledComponents": [],
         "practice": {
@@ -706,6 +723,7 @@
       "kind": "application",
       "groupId": null,
       "release": {
+        "updateKind": "",
         "fileInventory": {
           "Codaxy.Xlio.XmlSerializers.dll": "7A297A5D70F9EBE054A8F746E44A51888B809D5A0E019EB664A119F0619584BF",
           "Codaxy.Xlio.dll": "5B8F36CA7B1AB06DF9E2CE135CCABF3D01E2AF0B8E509B43E8E21E89353197C9",
@@ -906,6 +924,55 @@
           "Close LiveSplit before updating.",
           "Use RPM for custom core and component updates; upstream LiveSplit updates may replace custom fixes."
         ],
+        "accent": "#CB5A36",
+        "mark": "LS"
+      }
+    },
+    {
+      "id": "livesplit-custom-core",
+      "name": "LiveSplit Core",
+      "description": "Updates only the listed LiveSplit files; preserves your layouts, splits and settings.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "core",
+        "fileInventory": {
+          "LiveSplit.Core.dll": "B4A7ACB68C2ACDE658A762A475CE7330DB243C1061391B3803282F16F88E71B5",
+          "LiveSplit.LayoutBrowser.dll": "EE2B75DC36D6472E736401CAF964C16366790E194CC43F09973468330F49B3D8",
+          "LiveSplit.LayoutPreview.exe": "655B48762F8FA2F2739859CD62A3E9155670A3FE37B046FC8DC0CD4730CA5018",
+          "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
+          "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
+          "LiveSplit.View.dll": "83951FC900D48D5DBDF49A0571609C9979DEB18CF0E4FDF3C7DCDC823ED05609"
+        },
+        "bundledComponents": [],
+        "practice": null,
+        "format": "liveSplitOverlay",
+        "entryPoint": "",
+        "preservePaths": [
+          "settings.cfg",
+          "Splits",
+          "Layouts",
+          "Backups",
+          "Components/ACT.Settings.xml",
+          "LiveSplit.AutoSplitters.xml"
+        ],
+        "version": "1.0.4",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-154552-fbbd8cfe/livesplit-custom-core-LiveSplit-Custom-Core-1.0.4.zip",
+        "fileName": "LiveSplit-Custom-Core-1.0.4.zip",
+        "sha256": "C30C98F522ADBF76E485E887FE6E925F65B7191C05A8BEB50032E7B36E202D25",
+        "sizeBytes": 5814132,
+        "notes": "",
+        "publishedAt": "2026-10-04T15:45:52.9342584+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "",
+        "versionLabel": "1.0.4",
+        "summary": "",
+        "features": [],
+        "setup": [],
         "accent": "#CB5A36",
         "mark": "LS"
       }
