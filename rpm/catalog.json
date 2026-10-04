@@ -899,8 +899,9 @@
         "updateKind": "core",
         "fileInventory": {
           "LiveSplit.Core.dll": "B4A7ACB68C2ACDE658A762A475CE7330DB243C1061391B3803282F16F88E71B5",
-          "LiveSplit.LayoutBrowser.dll": "E79278199EAE74E792C18E6C285210F639B0CD1B9B3D5D40D09D7B43890F4196",
-          "LiveSplit.LayoutPreview.exe": "655B48762F8FA2F2739859CD62A3E9155670A3FE37B046FC8DC0CD4730CA5018",
+          "LiveSplit.LayerStore.dll": "5B3C589252CD08AEF798B2F0BDE32AFAB7A9EFF1A199F124918B791845DFD56A",
+          "LiveSplit.LayoutBrowser.dll": "254981C56C821DA78187D2D388510C62E33080C492744E1E3E4E525BE86B8233",
+          "LiveSplit.LayoutPreview.exe": "686F6F13FAD971D03BED43D997F7D8BEB0DE28A56D37121B00EBBA57ABC7CE87",
           "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
           "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
           "LiveSplit.View.dll": "B2AADDDDC57285C5DB402BC419BFA11C63F10EE44F4BA0D9099E4FE235ECAA8B"
@@ -917,20 +918,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.6",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-204713-ea51122b/livesplit-custom-core-LiveSplit-Custom-Core-1.0.6.zip",
-        "fileName": "LiveSplit-Custom-Core-1.0.6.zip",
-        "sha256": "104008EB14120B52434AE2DD2A809AA6C1617B6C2901A342E81B77E6F0A615BD",
-        "sizeBytes": 5833167,
+        "version": "1.0.7",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-215952-028b6444/livesplit-custom-core-LiveSplit-Custom-Core-1.0.7.zip",
+        "fileName": "LiveSplit-Custom-Core-1.0.7.zip",
+        "sha256": "31520D8CE986CAE53AC3903F7355DF8D2E91685B769206956D5AE5439E6F0574",
+        "sizeBytes": 5861945,
         "notes": "",
-        "publishedAt": "2026-10-04T20:47:13.0856051+00:00",
+        "publishedAt": "2026-10-04T21:59:52.4767409+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "",
-        "versionLabel": "1.0.6",
+        "versionLabel": "1.0.7",
         "summary": "",
         "features": [],
         "setup": [],
@@ -947,7 +948,7 @@
       "release": {
         "updateKind": "component",
         "fileInventory": {
-          "Components/LiveSplit.BetterSubsplits.dll": "F403B6A0918F89D7D351420B88F37D428990163107C8F2FA75BAA2E0331986A3"
+          "Components/LiveSplit.BetterSubsplits.dll": "52929559D9BB3C17DA3EE66D311F05E361752D1FE1D564D789DFFE6A47087424"
         },
         "bundledComponents": [],
         "practice": null,
@@ -961,20 +962,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "0.0.213",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-204713-ea51122b/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.213.zip",
-        "fileName": "LiveSplit.BetterSubsplits-0.0.213.zip",
-        "sha256": "9F8AF94286CED770E1E7E1125689DF83C85DA6C8F8618D5361086DA3A70BC4DB",
-        "sizeBytes": 141381,
+        "version": "0.0.215",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-215952-028b6444/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.215.zip",
+        "fileName": "LiveSplit.BetterSubsplits-0.0.215.zip",
+        "sha256": "A50E8BEBA1972CBC4098953027C3A28FBD8AE2AC335581C99983AC1C07458072",
+        "sizeBytes": 144164,
         "notes": "Detected local build 0.0.208. Review this release before publishing.",
-        "publishedAt": "2026-10-04T20:47:13.0995488+00:00",
+        "publishedAt": "2026-10-04T21:59:52.4891472+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "Better Subsplits",
-        "versionLabel": "0.0.213",
+        "versionLabel": "0.0.215",
         "summary": "Displays your split list using the Better Subsplits component.",
         "features": [],
         "setup": [
