@@ -222,45 +222,6 @@
       }
     },
     {
-      "id": "livesplit-previoussegment",
-      "name": "Previous Segment",
-      "description": "See time saved or lost on the previous segment.",
-      "kind": "liveSplitPlugin",
-      "groupId": "livesplit",
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": null,
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.1",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/raip-20260913-180515-5eee4af8/livesplit-previoussegment-LiveSplit.PreviousSegment.dll",
-        "fileName": "LiveSplit.PreviousSegment.dll",
-        "sha256": "E421553466B55772D32C87D6DD213F13642ACA6222B26CBF63CEEA49DA8958AF",
-        "sizeBytes": 39936,
-        "notes": "Canonical release: v001-v000-stable-layer-gold-delta. Imported checksum matches current-plugins.json.",
-        "publishedAt": "2026-09-13T14:05:14.8911567-04:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "Timing \u0026 splits",
-        "shortName": "Previous Segment",
-        "versionLabel": "v1",
-        "summary": "Compares the previous segment with your selected comparison.",
-        "features": [],
-        "setup": [
-          "Close LiveSplit before installing or updating this component.",
-          "Choose the folder containing LiveSplit.exe in Settings. RPM installs only this DLL into Components.",
-          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
-        ],
-        "accent": "#66725B",
-        "mark": "PS"
-      }
-    },
-    {
       "id": "livesplit-randomlayoutgenerator",
       "name": "Random Layout Generator",
       "description": "Generate a new visual theme for your LiveSplit layout.",
@@ -635,51 +596,46 @@
       }
     },
     {
-      "id": "livesplit-bettersubsplits",
-      "name": "Better Subsplits",
-      "description": "A customized subsplits component for your LiveSplit layout.",
-      "kind": "liveSplitPlugin",
-      "groupId": "livesplit",
+      "id": "nsmbw-autosplitter",
+      "name": "NSMBW Autosplitter",
+      "description": "Read the timer from your capture feed and send splits automatically.",
+      "kind": "application",
+      "groupId": null,
       "release": {
-        "updateKind": "component",
-        "fileInventory": {
-          "Components/LiveSplit.BetterSubsplits.dll": "52929559D9BB3C17DA3EE66D311F05E361752D1FE1D564D789DFFE6A47087424"
-        },
+        "updateKind": "",
+        "fileInventory": {},
         "bundledComponents": [],
         "practice": null,
-        "format": "liveSplitOverlay",
+        "format": "singleFile",
         "entryPoint": "",
-        "preservePaths": [
-          "settings.cfg",
-          "Splits",
-          "Layouts",
-          "Backups",
-          "Components/ACT.Settings.xml",
-          "LiveSplit.AutoSplitters.xml"
-        ],
-        "version": "0.0.215",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-215952-028b6444/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.215.zip",
-        "fileName": "LiveSplit.BetterSubsplits-0.0.215.zip",
-        "sha256": "A50E8BEBA1972CBC4098953027C3A28FBD8AE2AC335581C99983AC1C07458072",
-        "sizeBytes": 144164,
-        "notes": "Detected local build 0.0.208. Review this release before publishing.",
-        "publishedAt": "2026-10-04T21:59:52.4891472+00:00",
+        "preservePaths": [],
+        "version": "2.1.1",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-142414-491417b8/nsmbw-autosplitter-NSMBWAutosplitter.exe",
+        "fileName": "NSMBWAutosplitter.exe",
+        "sha256": "DD34EC98F93DFDEBCA89D36989E06A9FE9DCE21C9C235F9BB6A58B770B220015",
+        "sizeBytes": 371913,
+        "notes": "Detected local build 2.1.1. Review this release before publishing.",
+        "publishedAt": "2026-10-06T14:24:14.8856889+00:00",
         "companionInstaller": null
       },
       "details": {
-        "iconPng": "",
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAtFSURBVHhe7Vp5UBRXGvcPYwREYJjp7mFm\u002BpgZmO4eUA4PRFBBoogHipGYxHAKnjHGXLuaw2QTtTYhietmN5XKVmXdZBPjEVEJOYixNGuym2tjZWNI1GjMKoi3BgSB39Z7w1CkZ0CGU7P8qn41Df36zff9\u002Bn3vfe97M2BAP64TjB8/kI/iQ3yhQVWHaLu5YWGMsCSyTukMI4vt0tD8yTqtZ1hFKNH2c8OCieAnGiOtYFUJQ2UBgW1wiCxAp4gwRtrAKOI\u002BbT83LFiHkKxXJUhOK95ITkBZahJ2piZ68MNJ41A0ahgCVJEIsFvbzw0LIoBOleCItOH8jMlA5lRgVronb52B4qSRuEkRfn0CsE4JJlVCeqyCmXEqZsR6cnacE3HDwkFGy69KACacTzVGWYlTCHDw8G\u002BDfg4LgmUBRqcVjCrs1fZzwyLUYQljVWkrq4iXWEUEocHBIzTcDF24iX6Sv933WFX6mVGF9dp\u002BbkgwsjCLVaV3DLJQFSiyjYOMQRhsCoHOboJleATEWAX88Ajows0YbNKB3A8UmEZG5s\u002BzqriXdQpztX3eENArQgznlMoZVYSfJRSBIoMxU5LxwOqVeH37Znz8xb9QcfQQjvz3GL47dhiffPkZNu3Yiod\u002B9wiSpqViqMRhsFkH8jzrlPaxijha\u002Bx3XLVhVWsI5rbWBEotAkcXcwhy8v3c3auqvoCO40lCPPR/vQ87dRQiyGjFEZMCpUj2jSvdpv\u002Bu6A6uIz3CRVtxkDMLISUl4Z095i2P1aEBtQ901Sdq58eH\u002BfRg7dSJu4oLAOa1gFelF7XdeN2AV8Tmy3BHn85cvwrlLF1xvtLHew0k3r6Kxzfvk/wSXa37G4oeWUxFYEhKK8Ir2u/scrCw\u002BRN88F0Tj2A2tU61JnaurQVM7ItU01NH7BI8Xr8XNYcFkTgCnCOu0NvQZjIqURIYncX7pb1dQYxvQ6OFMazaiCds\u002BKIU8eTRWrV\u002BDq40NbYpASEYKwcq1q\u002BkIo\u002BEgS9O0tvQ6BEEYzCrSN/68ASmZ6aitv0Kd0zrQmu6hPXNpNgaIgRCSo1F5rvqazxFRSZuM7Cy6QrCKeCzU4QjU2tSrYGRhuUERYHBY8OU3B6hjZNhqjfcmwKy7szFQ5RAxeTROnK26pgCEBN8dPQRTlB16mQcji49qbeo1mM1mP1YWjg4KC8b9j6\u002BkxrU3jLUCzF6WSwVwpMXj5NlTHRKAkOCJ4rU0FBhFrAqxWoO0tvUKSJZnkHmau5OkhkBrrDd2VQAyKR47\u002BRPEGBl6hwUGWczW2tYrYBTxdX9ejzsW5nX47RN2VQD384X3LXVli4q4S2tbj8MYZ/RnZOE4yetf2fxah99\u002Bawc6KwAhwZbS7fAzh4JxCGeCBCFYa2OPQq9Yw8nER3ZvByr\u002B0ykBMpflYoDCwt4JAUgYHPrxCCzDIlxh4OATtDZ6Bam4sk4hmRYpukBGEVaG2E2ITBqB0xfP\u002BmQ8EYA4MPPeAhidYVDTE/CTj32QvODilcsYeUsSgu3Gjs8DruKEDRzJpmSxc3SI4BQRQwQGybOmUIc6mucTXmm6SjdG/1iSj8MTxmD/tImoPv4DyLjQtm2LdU0uEdNvz6SbJZKJan31CvL2iPMkp\u002BZi7OBiw8HG2H0ifSbKCn\u002BzHlPvyKSG1DVd9TCyLZI94aV/foQLExNxdvokXEgZi3PrnkAtyQaJCB2YTN1hNKdgHvwFA/HnKa2vXkEFIG8xxg7xpbmQXsuGdeNdvnFzHixLU\u002BCvD0babRloQJPvAnz1OSrHx6MyZSyqJk9AZWoSqpctxOV/f0bvUyG8PNvSh3seybsdAUQAh7Ba66tXtAgQa4f0ajZsOwqR/tlq3Pr1WmQeWNMuSRvS1v7uQlhWTUEgq0PClGRcrq\u002BhMak1sk021uNKUwMubHoV1YsKUJ0/D5UTxqBy3ChUThqPs8XrUHOq0iVCG6FV39RAOXH2VARaWTAO8R6tr17RWgDxr/Nge6sAc75ag/zvn0d2RXG7zP3\u002BedrWtrMI/LoMhPAcbCOcOH7qBA0DrZHtkojgdvDyJZz/\u002B0ZUzUxHZdIoylNZGbjw1mbUNlxFrZe\u002ByYRZfeEMnGPjaF2RUYSZWl\u002B9wpsAmV8\u002Biexvi3HnN0\u002B3y7u\u002BLaZtbdvn0/BhnCKGCiz2fPKRT8vgL0hCh9QEAPz841GcefIxVE5MROW40ZSnVyxFzamTdMS0fo7g0wNfIDSCLoGNunBB0frqFb8IgY3zYN1WALVkASJ3LOwQSVvrlnxYt\u002BXDmBKFgSEBeGr97zsvQCu6Y//S/n2oLspFZeJInIgKx8XyMo85gWD9y38C2YcwilBBDmC1vnqFNwHETTkQOkjSlkyCtreLYC4ajwB9MJKm34K6hnoak1qnfKY7NGprcP71jTj34gbUXDznGinNbeqbyIzThMlZGRgiMSQV/qPWzzbhTQDikK\u002B07ZgPccMcMOE8/M2hKNvzfreMghY2h4W3iZBg76f7ESRx9LClw1kgQYsAcXZYt\u002BTB9u4i\u002BjZ95wLYP1gM022j4acPwuTbMnC1eWb2cKYbSZZbuvzlzoUfryep\u002BH6tj\u002B2CCqCI4IZZYS4aR9dzy5Jk37k4GZblqTDNGQXWztO9\u002BZ83vty9o8ALCV7b/iY9XCG1QYMqpGl9bBeMbLnFOIykwlZwkgWsaAbDm8DwYTCwLBiGhd7AQBeqh07fzFA9Qg0Ges/QmgYGjMkIVjIjRDSSyYjOzD0hAqkyERw8XEFPlEIizCT93az175owhAvRnCrtJqevhKwsfkHP45wSwtKGw5geDWHGSChZiZDnjKUk17ZZo\u002Bm9sPQYT06PhXFEBAI4HZyJI3Dk\u002BNFuF4HgRHUl3fwE8AZyUHKci7YbtP75DEYW4lsmxTdywJcUIGHvA8g/tgHZR56nJNdpnz8GflsebCXzPVm2AOILWeCibBhsGIqYlAQcPFRBjfYlRfZGd8p7\u002BMcfED8lmRZAyKmTTxNfe2AdwoQWAf42D/yWXMSX34uc757FnQefpiTXkz5eBX5TNp04Pdi8LArPZJI3Az9DEKQ4FdveLqHGE3S0WtTCRtdbJygtfwfho4bRM0bOKdWxMt995XDtsshvzkX8\u002B/cip\u002BLZlgyQXE/avwr8G9key\u002BEvlsa3iyA\u002BNxvGuHAEMjoEWPTIv2cRDhz8usUZUt1vSwzyf1f134WKI99j0YP30IPVIJsRRqdUxSh8qtaHLqE7BaAilBZCeuVOhE2Pg95ixKDQQLpW5y1biF3vleHk6apWLnri1NnTKNv9Hhbcfzctfd9sCqEnxOSk2WC32LT2dxndLQAVoWQ\u002BrCXzwT88BcaxCkLNHAaFDIG/KRRyfDQy7srC8ocfxNo/FOO5l17Aug3PYsWjv8GsnLlQE2JpoYXEOqn7c6p0iFHFIq3d3YaeEIBySz5spUWwvpkH/pF0ulIwkRKCTQz8dEMxKDgAA4P86V5ioCEQg4zBIBVmXYQZBlmo4VTxPVYV8gyqoWd/MNljAri51SUEGRXSX\u002B4Av3oazAvGw5Q1CmFTYxCWFk2/myRnrCLsYWVhLhvBS1o7eww9LoCbZLV4qwC2XUUuQXYW0v0EuQ6bFgvOLpC09gGtfT2OXhPAG7e6NlVkJLgE6GBZqzvRpwKQzVhJvwD9AvQL0C9AvwD9AvQLcD0JMKZ8BQoOraeOE5LrtE8e\u002Bf8QQNyaTw8/EspX0JFAmPDBCkSXLoH4Zq6nE13hdSVAqzK5VFoIfmcBhGbyOwog7iqkpXDP8ngXWFYEe/lihM2IBWfrSwG6o0zeWS5LgTFBASdLfSOAtzI5Sz57i6IZnCLBNDy8b37/qy2T9xWNkdbdnCrmaO3rRz/60Y/O4n\u002BuWvyeNGvB/wAAAABJRU5ErkJggg==",
         "category": "Timing \u0026 splits",
-        "shortName": "Better Subsplits",
-        "versionLabel": "0.0.215",
-        "summary": "Displays your split list using the Better Subsplits component.",
-        "features": [],
-        "setup": [
-          "Close LiveSplit before installing or updating this component.",
-          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
-          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        "shortName": "NSMBW Autosplitter",
+        "versionLabel": "2.1.1",
+        "summary": "A capture-window OCR utility for the on-screen run timer. Train the timer font, then send detected times to your timing workflow.",
+        "features": [
+          "Crop and train against your capture window.",
+          "Read and type a time manually, or watch continuously.",
+          "Configure LiveSplit start/stop hotkeys and automatic attempt resets."
         ],
-        "accent": "#66725B",
-        "mark": "BS"
+        "setup": [
+          "Requires the .NET 8 Windows Desktop runtime for the small build.",
+          "Open your capture window, configure the timer crop, train a sample and test OCR.",
+          "Capture settings and timer templates are saved beside the EXE."
+        ],
+        "accent": "#57734F",
+        "mark": "AS"
       }
     },
     {
@@ -702,7 +658,7 @@
           "Components/LiveSplit.AutoSplittingRuntime.dll": "6AF8294FEC1A2FC8C6F97CC12B7AA249869492EE85D78A8305FFAC4961A4556C",
           "Components/LiveSplit.BestPace.dll": "93086C79A346FA018359E1A590611C92C63DC248B8376581CED07461B7F10E14",
           "Components/LiveSplit.BetterSubsplitLabels.dll": "4EADA703CA0BB4AA9DF41474D00C26821FCF8F9074DF3E5757E6E4F31C0D698D",
-          "Components/LiveSplit.BetterSubsplits.dll": "52929559D9BB3C17DA3EE66D311F05E361752D1FE1D564D789DFFE6A47087424",
+          "Components/LiveSplit.BetterSubsplits.dll": "A35D3B8513468FE1D8056DE221FEF1F95723C4661190AAFE508DDF0403E03F57",
           "Components/LiveSplit.BlankSpace.dll": "416BD54F578EB3661DF0D91CCFF07638A0EDE55B27AEE822A044EA108E89A36C",
           "Components/LiveSplit.ComparisonTime.dll": "4AFEA3843C4F9DF7235ADFAC8304BE79AC0353067E6C64176FF6759C5D946A52",
           "Components/LiveSplit.Counter.dll": "E4B9872048E7A4C345C3641916A033516CBF21327DDE9B186CAA03BAB188DC04",
@@ -714,13 +670,13 @@
           "Components/LiveSplit.ManualGameTime.dll": "D02F8B611934E2BC66CA85CD5B066B8B85507D4485AD894FEDC0099795DC7454",
           "Components/LiveSplit.PacePlacement.dll": "031801FD421D2F101AAAE692996CBCD72611D6A6CB820185CC3425175015EB02",
           "Components/LiveSplit.PossibleTimeSave.dll": "9E21ED3C2FB7C25EC8C61273298F06F8042CE07FE5FD357BC8C436260648569C",
-          "Components/LiveSplit.PreviousSegment.dll": "E421553466B55772D32C87D6DD213F13642ACA6222B26CBF63CEEA49DA8958AF",
+          "Components/LiveSplit.PreviousSegment.dll": "6B5D4BB289A2A7D48A0EDF061140B7A88C55266E5773712F8482F2A285D3BBE7",
           "Components/LiveSplit.Racetime.dll": "F659636C47D410FA0BA4114D83DF23FD0C7F394B8F705625DD6EA3501B476E78",
           "Components/LiveSplit.RandomLayoutGenerator.dll": "F16817005E0FBE4E8179757B12C155BE0F75EFC2C81AB74FDCD13409AC7A01BB",
           "Components/LiveSplit.RunPrediction.dll": "5667F0BFDCCEC41086CDB9F38062DC15EB32D233238CBF384A85DB276820121B",
           "Components/LiveSplit.ScriptableAutoSplit.dll": "E0BFDB626ADA566E34B24BCA0C6D0645E7B4CD9D85B69136C5F27CB7E4ED9E90",
           "Components/LiveSplit.SegmentBestPossibleTime.dll": "22E169C5F3AD7B492706EBE151D0D3F1BF84AE7554D62D53237A6491625C26FA",
-          "Components/LiveSplit.SegmentPreviousBest.dll": "D92FC9635FBF5EEECFD1ABC45D461CC33E6F520650F86F520C956154483F15E5",
+          "Components/LiveSplit.SegmentPreviousBest.dll": "680E99BB6DB8EF22AF48DE801BE31F56812AF6F3F2825736C8FC29EA66393264",
           "Components/LiveSplit.SegmentSumOfBest.dll": "B3E508F569EDBBF0D7E4237784C32BF149AA341E91D3E7929F94CA3F2FBF7609",
           "Components/LiveSplit.SegmentedBPT.dll": "AA55C7B5B1020A245C1E52AB2EB43EF7FEFCF30AA96133CCA2881E1E567A5FA9",
           "Components/LiveSplit.SegmentedBPTComparison.dll": "827584BF09A31EFD4C85E1104D2BFB85DE2649FE22ED409D6907ABC5A93146CD",
@@ -761,9 +717,9 @@
           "LiveSplit.AutoSplitters.xml": "1DFEA28A84CCAD347B7FE9D687ECD56B8E1B0D2E34E72AFE378EB52EA789D7EB",
           "LiveSplit.Core.dll": "B4A7ACB68C2ACDE658A762A475CE7330DB243C1061391B3803282F16F88E71B5",
           "LiveSplit.Core.dll.config": "F309AE592EB2E040D704CB8D3F6274EB6AC00550790351838D41ACEC089E32A4",
-          "LiveSplit.LayerStore.dll": "BC43BCEC940731BE8A87A70D391B81185BB4F9B9621658BE989084CA526A2B3A",
-          "LiveSplit.LayoutBrowser.dll": "254981C56C821DA78187D2D388510C62E33080C492744E1E3E4E525BE86B8233",
-          "LiveSplit.LayoutPreview.exe": "686F6F13FAD971D03BED43D997F7D8BEB0DE28A56D37121B00EBBA57ABC7CE87",
+          "LiveSplit.LayerStore.dll": "985B96F844CB86733111A5B246ED0FC5A92415D86045EF1D4030F0566B29F124",
+          "LiveSplit.LayoutBrowser.dll": "5A2B959DC6B573A29587AC6783AFC5CC85761EE83C4C0025606CDD2CE9EE59AE",
+          "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
           "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
           "LiveSplit.Register.exe": "6638E918444C3865BA5B547AD21B6B8EDDA3825C2A756ED0C1D8D7F740E3CBA8",
           "LiveSplit.Register.exe.config": "B89E78F3E43C48D7AD1CC6F4E713B6E4F2A8AB5B9A8B65F70F4E6AD62C8883C3",
@@ -816,8 +772,8 @@
           {
             "id": "livesplit-previoussegment",
             "fileName": "LiveSplit.PreviousSegment.dll",
-            "version": "0.0.1",
-            "sha256": "E421553466B55772D32C87D6DD213F13642ACA6222B26CBF63CEEA49DA8958AF"
+            "version": "0.0.2",
+            "sha256": "6B5D4BB289A2A7D48A0EDF061140B7A88C55266E5773712F8482F2A285D3BBE7"
           },
           {
             "id": "livesplit-randomlayoutgenerator",
@@ -861,20 +817,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.9",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-221612-441422a4/livesplit-custom-LiveSplit-Custom-1.0.9.zip",
-        "fileName": "LiveSplit-Custom-1.0.9.zip",
-        "sha256": "17232647DAA246D3BF4304DC392EA62618CD2BDBDEA4E59C8C21B0C292B43099",
-        "sizeBytes": 17227533,
+        "version": "1.0.10",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-144930-675424c2/livesplit-custom-LiveSplit-Custom-1.0.10.zip",
+        "fileName": "LiveSplit-Custom-1.0.10.zip",
+        "sha256": "CF2F073B95B634C4FCA149F2AAA8868A6161FCB8616B83223478E9224AAD5EE1",
+        "sizeBytes": 17244860,
         "notes": "Detected local build 1.0.0. Review this release before publishing.",
-        "publishedAt": "2026-10-04T22:16:12.4280307+00:00",
+        "publishedAt": "2026-10-06T14:49:30.1638746+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "LiveSplit Custom",
-        "versionLabel": "1.0.9",
+        "versionLabel": "1.0.10",
         "summary": "Your custom LiveSplit core, with its components included. RPM checks for published updates automatically.",
         "features": [
           "Complete portable LiveSplit installation",
@@ -899,9 +855,9 @@
         "updateKind": "core",
         "fileInventory": {
           "LiveSplit.Core.dll": "B4A7ACB68C2ACDE658A762A475CE7330DB243C1061391B3803282F16F88E71B5",
-          "LiveSplit.LayerStore.dll": "BC43BCEC940731BE8A87A70D391B81185BB4F9B9621658BE989084CA526A2B3A",
-          "LiveSplit.LayoutBrowser.dll": "254981C56C821DA78187D2D388510C62E33080C492744E1E3E4E525BE86B8233",
-          "LiveSplit.LayoutPreview.exe": "686F6F13FAD971D03BED43D997F7D8BEB0DE28A56D37121B00EBBA57ABC7CE87",
+          "LiveSplit.LayerStore.dll": "985B96F844CB86733111A5B246ED0FC5A92415D86045EF1D4030F0566B29F124",
+          "LiveSplit.LayoutBrowser.dll": "5A2B959DC6B573A29587AC6783AFC5CC85761EE83C4C0025606CDD2CE9EE59AE",
+          "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
           "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
           "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
           "LiveSplit.View.dll": "B2AADDDDC57285C5DB402BC419BFA11C63F10EE44F4BA0D9099E4FE235ECAA8B"
@@ -918,20 +874,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.8",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261004-221612-441422a4/livesplit-custom-core-LiveSplit-Custom-Core-1.0.8.zip",
-        "fileName": "LiveSplit-Custom-Core-1.0.8.zip",
-        "sha256": "82A20EBE4C2ACBA31CC1EC8BD32F5F5F27FE775775617412581B53521BA631D3",
-        "sizeBytes": 5862661,
+        "version": "1.0.9",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-144930-675424c2/livesplit-custom-core-LiveSplit-Custom-Core-1.0.9.zip",
+        "fileName": "LiveSplit-Custom-Core-1.0.9.zip",
+        "sha256": "4DB10146B387A7F74B9518FA3294C3C32E9C3D49949AC3680293FF605D939640",
+        "sizeBytes": 5877045,
         "notes": "",
-        "publishedAt": "2026-10-04T22:16:12.4841111+00:00",
+        "publishedAt": "2026-10-06T14:49:30.2053422+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "",
-        "versionLabel": "1.0.8",
+        "versionLabel": "1.0.9",
         "summary": "",
         "features": [],
         "setup": [],
@@ -940,46 +896,143 @@
       }
     },
     {
-      "id": "nsmbw-autosplitter",
-      "name": "NSMBW Autosplitter",
-      "description": "Read the timer from your capture feed and send splits automatically.",
-      "kind": "application",
-      "groupId": null,
+      "id": "livesplit-bettersubsplits",
+      "name": "Better Subsplits",
+      "description": "A customized subsplits component for your LiveSplit layout.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
       "release": {
-        "updateKind": "",
-        "fileInventory": {},
+        "updateKind": "component",
+        "fileInventory": {
+          "Components/LiveSplit.BetterSubsplits.dll": "A35D3B8513468FE1D8056DE221FEF1F95723C4661190AAFE508DDF0403E03F57"
+        },
         "bundledComponents": [],
         "practice": null,
-        "format": "singleFile",
+        "format": "liveSplitOverlay",
         "entryPoint": "",
-        "preservePaths": [],
-        "version": "2.1.1",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-142414-491417b8/nsmbw-autosplitter-NSMBWAutosplitter.exe",
-        "fileName": "NSMBWAutosplitter.exe",
-        "sha256": "DD34EC98F93DFDEBCA89D36989E06A9FE9DCE21C9C235F9BB6A58B770B220015",
-        "sizeBytes": 371913,
-        "notes": "Detected local build 2.1.1. Review this release before publishing.",
-        "publishedAt": "2026-10-06T14:24:14.8856889+00:00",
+        "preservePaths": [
+          "settings.cfg",
+          "Splits",
+          "Layouts",
+          "Backups",
+          "Components/ACT.Settings.xml",
+          "LiveSplit.AutoSplitters.xml"
+        ],
+        "version": "0.0.218",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-144930-675424c2/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.218.zip",
+        "fileName": "LiveSplit.BetterSubsplits-0.0.218.zip",
+        "sha256": "E49B976418E328754E9F71A7CDDF35105CF83B3FBADF90578FD64153FDB698DD",
+        "sizeBytes": 145499,
+        "notes": "Detected local build 0.0.208. Review this release before publishing.",
+        "publishedAt": "2026-10-06T14:49:30.2261866+00:00",
         "companionInstaller": null
       },
       "details": {
-        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAtFSURBVHhe7Vp5UBRXGvcPYwREYJjp7mFm\u002BpgZmO4eUA4PRFBBoogHipGYxHAKnjHGXLuaw2QTtTYhietmN5XKVmXdZBPjEVEJOYixNGuym2tjZWNI1GjMKoi3BgSB39Z7w1CkZ0CGU7P8qn41Df36zff9\u002Bn3vfe97M2BAP64TjB8/kI/iQ3yhQVWHaLu5YWGMsCSyTukMI4vt0tD8yTqtZ1hFKNH2c8OCieAnGiOtYFUJQ2UBgW1wiCxAp4gwRtrAKOI\u002BbT83LFiHkKxXJUhOK95ITkBZahJ2piZ68MNJ41A0ahgCVJEIsFvbzw0LIoBOleCItOH8jMlA5lRgVronb52B4qSRuEkRfn0CsE4JJlVCeqyCmXEqZsR6cnacE3HDwkFGy69KACacTzVGWYlTCHDw8G\u002BDfg4LgmUBRqcVjCrs1fZzwyLUYQljVWkrq4iXWEUEocHBIzTcDF24iX6Sv933WFX6mVGF9dp\u002BbkgwsjCLVaV3DLJQFSiyjYOMQRhsCoHOboJleATEWAX88Ajows0YbNKB3A8UmEZG5s\u002BzqriXdQpztX3eENArQgznlMoZVYSfJRSBIoMxU5LxwOqVeH37Znz8xb9QcfQQjvz3GL47dhiffPkZNu3Yiod\u002B9wiSpqViqMRhsFkH8jzrlPaxijha\u002Bx3XLVhVWsI5rbWBEotAkcXcwhy8v3c3auqvoCO40lCPPR/vQ87dRQiyGjFEZMCpUj2jSvdpv\u002Bu6A6uIz3CRVtxkDMLISUl4Z095i2P1aEBtQ901Sdq58eH\u002BfRg7dSJu4oLAOa1gFelF7XdeN2AV8Tmy3BHn85cvwrlLF1xvtLHew0k3r6Kxzfvk/wSXa37G4oeWUxFYEhKK8Ir2u/scrCw\u002BRN88F0Tj2A2tU61JnaurQVM7ItU01NH7BI8Xr8XNYcFkTgCnCOu0NvQZjIqURIYncX7pb1dQYxvQ6OFMazaiCds\u002BKIU8eTRWrV\u002BDq40NbYpASEYKwcq1q\u002BkIo\u002BEgS9O0tvQ6BEEYzCrSN/68ASmZ6aitv0Kd0zrQmu6hPXNpNgaIgRCSo1F5rvqazxFRSZuM7Cy6QrCKeCzU4QjU2tSrYGRhuUERYHBY8OU3B6hjZNhqjfcmwKy7szFQ5RAxeTROnK26pgCEBN8dPQRTlB16mQcji49qbeo1mM1mP1YWjg4KC8b9j6\u002BkxrU3jLUCzF6WSwVwpMXj5NlTHRKAkOCJ4rU0FBhFrAqxWoO0tvUKSJZnkHmau5OkhkBrrDd2VQAyKR47\u002BRPEGBl6hwUGWczW2tYrYBTxdX9ejzsW5nX47RN2VQD384X3LXVli4q4S2tbj8MYZ/RnZOE4yetf2fxah99\u002Bawc6KwAhwZbS7fAzh4JxCGeCBCFYa2OPQq9Yw8nER3ZvByr\u002B0ykBMpflYoDCwt4JAUgYHPrxCCzDIlxh4OATtDZ6Bam4sk4hmRYpukBGEVaG2E2ITBqB0xfP\u002BmQ8EYA4MPPeAhidYVDTE/CTj32QvODilcsYeUsSgu3Gjs8DruKEDRzJpmSxc3SI4BQRQwQGybOmUIc6mucTXmm6SjdG/1iSj8MTxmD/tImoPv4DyLjQtm2LdU0uEdNvz6SbJZKJan31CvL2iPMkp\u002BZi7OBiw8HG2H0ifSbKCn\u002BzHlPvyKSG1DVd9TCyLZI94aV/foQLExNxdvokXEgZi3PrnkAtyQaJCB2YTN1hNKdgHvwFA/HnKa2vXkEFIG8xxg7xpbmQXsuGdeNdvnFzHixLU\u002BCvD0babRloQJPvAnz1OSrHx6MyZSyqJk9AZWoSqpctxOV/f0bvUyG8PNvSh3seybsdAUQAh7Ba66tXtAgQa4f0ajZsOwqR/tlq3Pr1WmQeWNMuSRvS1v7uQlhWTUEgq0PClGRcrq\u002BhMak1sk021uNKUwMubHoV1YsKUJ0/D5UTxqBy3ChUThqPs8XrUHOq0iVCG6FV39RAOXH2VARaWTAO8R6tr17RWgDxr/Nge6sAc75ag/zvn0d2RXG7zP3\u002BedrWtrMI/LoMhPAcbCOcOH7qBA0DrZHtkojgdvDyJZz/\u002B0ZUzUxHZdIoylNZGbjw1mbUNlxFrZe\u002ByYRZfeEMnGPjaF2RUYSZWl\u002B9wpsAmV8\u002Biexvi3HnN0\u002B3y7u\u002BLaZtbdvn0/BhnCKGCiz2fPKRT8vgL0hCh9QEAPz841GcefIxVE5MROW40ZSnVyxFzamTdMS0fo7g0wNfIDSCLoGNunBB0frqFb8IgY3zYN1WALVkASJ3LOwQSVvrlnxYt\u002BXDmBKFgSEBeGr97zsvQCu6Y//S/n2oLspFZeJInIgKx8XyMo85gWD9y38C2YcwilBBDmC1vnqFNwHETTkQOkjSlkyCtreLYC4ajwB9MJKm34K6hnoak1qnfKY7NGprcP71jTj34gbUXDznGinNbeqbyIzThMlZGRgiMSQV/qPWzzbhTQDikK\u002B07ZgPccMcMOE8/M2hKNvzfreMghY2h4W3iZBg76f7ESRx9LClw1kgQYsAcXZYt\u002BTB9u4i\u002BjZ95wLYP1gM022j4acPwuTbMnC1eWb2cKYbSZZbuvzlzoUfryep\u002BH6tj\u002B2CCqCI4IZZYS4aR9dzy5Jk37k4GZblqTDNGQXWztO9\u002BZ83vty9o8ALCV7b/iY9XCG1QYMqpGl9bBeMbLnFOIykwlZwkgWsaAbDm8DwYTCwLBiGhd7AQBeqh07fzFA9Qg0Ges/QmgYGjMkIVjIjRDSSyYjOzD0hAqkyERw8XEFPlEIizCT93az175owhAvRnCrtJqevhKwsfkHP45wSwtKGw5geDWHGSChZiZDnjKUk17ZZo\u002Bm9sPQYT06PhXFEBAI4HZyJI3Dk\u002BNFuF4HgRHUl3fwE8AZyUHKci7YbtP75DEYW4lsmxTdywJcUIGHvA8g/tgHZR56nJNdpnz8GflsebCXzPVm2AOILWeCibBhsGIqYlAQcPFRBjfYlRfZGd8p7\u002BMcfED8lmRZAyKmTTxNfe2AdwoQWAf42D/yWXMSX34uc757FnQefpiTXkz5eBX5TNp04Pdi8LArPZJI3Az9DEKQ4FdveLqHGE3S0WtTCRtdbJygtfwfho4bRM0bOKdWxMt995XDtsshvzkX8\u002B/cip\u002BLZlgyQXE/avwr8G9key\u002BEvlsa3iyA\u002BNxvGuHAEMjoEWPTIv2cRDhz8usUZUt1vSwzyf1f134WKI99j0YP30IPVIJsRRqdUxSh8qtaHLqE7BaAilBZCeuVOhE2Pg95ixKDQQLpW5y1biF3vleHk6apWLnri1NnTKNv9Hhbcfzctfd9sCqEnxOSk2WC32LT2dxndLQAVoWQ\u002BrCXzwT88BcaxCkLNHAaFDIG/KRRyfDQy7srC8ocfxNo/FOO5l17Aug3PYsWjv8GsnLlQE2JpoYXEOqn7c6p0iFHFIq3d3YaeEIBySz5spUWwvpkH/pF0ulIwkRKCTQz8dEMxKDgAA4P86V5ioCEQg4zBIBVmXYQZBlmo4VTxPVYV8gyqoWd/MNljAri51SUEGRXSX\u002B4Av3oazAvGw5Q1CmFTYxCWFk2/myRnrCLsYWVhLhvBS1o7eww9LoCbZLV4qwC2XUUuQXYW0v0EuQ6bFgvOLpC09gGtfT2OXhPAG7e6NlVkJLgE6GBZqzvRpwKQzVhJvwD9AvQL0C9AvwD9AvQLcD0JMKZ8BQoOraeOE5LrtE8e\u002Bf8QQNyaTw8/EspX0JFAmPDBCkSXLoH4Zq6nE13hdSVAqzK5VFoIfmcBhGbyOwog7iqkpXDP8ngXWFYEe/lihM2IBWfrSwG6o0zeWS5LgTFBASdLfSOAtzI5Sz57i6IZnCLBNDy8b37/qy2T9xWNkdbdnCrmaO3rRz/60Y/O4n\u002BuWvyeNGvB/wAAAABJRU5ErkJggg==",
+        "iconPng": "",
         "category": "Timing \u0026 splits",
-        "shortName": "NSMBW Autosplitter",
-        "versionLabel": "2.1.1",
-        "summary": "A capture-window OCR utility for the on-screen run timer. Train the timer font, then send detected times to your timing workflow.",
-        "features": [
-          "Crop and train against your capture window.",
-          "Read and type a time manually, or watch continuously.",
-          "Configure LiveSplit start/stop hotkeys and automatic attempt resets."
-        ],
+        "shortName": "Better Subsplits",
+        "versionLabel": "0.0.218",
+        "summary": "Displays your split list using the Better Subsplits component.",
+        "features": [],
         "setup": [
-          "Requires the .NET 8 Windows Desktop runtime for the small build.",
-          "Open your capture window, configure the timer crop, train a sample and test OCR.",
-          "Capture settings and timer templates are saved beside the EXE."
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
         ],
-        "accent": "#57734F",
-        "mark": "AS"
+        "accent": "#66725B",
+        "mark": "BS"
+      }
+    },
+    {
+      "id": "livesplit-previoussegment",
+      "name": "Previous Segment",
+      "description": "See time saved or lost on the previous segment.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "updateKind": "component",
+        "fileInventory": {
+          "Components/LiveSplit.PreviousSegment.dll": "6B5D4BB289A2A7D48A0EDF061140B7A88C55266E5773712F8482F2A285D3BBE7"
+        },
+        "bundledComponents": [],
+        "practice": null,
+        "format": "liveSplitOverlay",
+        "entryPoint": "",
+        "preservePaths": [
+          "settings.cfg",
+          "Splits",
+          "Layouts",
+          "Backups",
+          "Components/ACT.Settings.xml",
+          "LiveSplit.AutoSplitters.xml"
+        ],
+        "version": "0.0.2",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-144930-675424c2/livesplit-previoussegment-LiveSplit.PreviousSegment-0.0.2.zip",
+        "fileName": "LiveSplit.PreviousSegment-0.0.2.zip",
+        "sha256": "C1F9BFD9111B2280DEDA5E25B5C5F8A537E0D9F50B0BB1E09E3701D9403305AD",
+        "sizeBytes": 16853,
+        "notes": "Canonical release: v001-v000-stable-layer-gold-delta. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-10-06T14:49:30.2334751+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Previous Segment",
+        "versionLabel": "0.0.2",
+        "summary": "Compares the previous segment with your selected comparison.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "PS"
+      }
+    },
+    {
+      "id": "livesplit-segmentpreviousbest",
+      "name": "livesplit-segmentpreviousbest",
+      "description": "Updates only the listed LiveSplit files; preserves your layouts, splits and settings.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "updateKind": "component",
+        "fileInventory": {
+          "Components/LiveSplit.SegmentPreviousBest.dll": "680E99BB6DB8EF22AF48DE801BE31F56812AF6F3F2825736C8FC29EA66393264"
+        },
+        "bundledComponents": [],
+        "practice": null,
+        "format": "liveSplitOverlay",
+        "entryPoint": "",
+        "preservePaths": [
+          "settings.cfg",
+          "Splits",
+          "Layouts",
+          "Backups",
+          "Components/ACT.Settings.xml",
+          "LiveSplit.AutoSplitters.xml"
+        ],
+        "version": "0.0.1",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-144930-675424c2/livesplit-segmentpreviousbest-LiveSplit.SegmentPreviousBest-0.0.1.zip",
+        "fileName": "LiveSplit.SegmentPreviousBest-0.0.1.zip",
+        "sha256": "AF93BDA8779C411EFB9C1D8A516E058ADDA493B756EE99E91696897D724E7BB0",
+        "sizeBytes": 14385,
+        "notes": "",
+        "publishedAt": "2026-10-06T14:49:30.2417481+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "",
+        "versionLabel": "0.0.1",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "LS"
       }
     }
   ]
