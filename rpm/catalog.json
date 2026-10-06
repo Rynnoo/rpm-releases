@@ -456,49 +456,6 @@
       }
     },
     {
-      "id": "nsmbw-autosplitter",
-      "name": "NSMBW Autosplitter",
-      "description": "Read the timer from your capture feed and send splits automatically.",
-      "kind": "application",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": null,
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "2.1.0",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/raip-20260914-181436-99932f4c/nsmbw-autosplitter-RetimeAutosplit.exe",
-        "fileName": "RetimeAutosplit.exe",
-        "sha256": "8C8BE38B892592460C24D05DFF738A52F350FD003D52BCC2D47405DB9399458B",
-        "sizeBytes": 370377,
-        "notes": "NSMBW Autosplitter 2.1.0: SCU Direct Frames capture, independent timer and picture crops, stalled-capture detection, updated icon and interface fixes.",
-        "publishedAt": "2026-09-14T14:14:36.2379091-04:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAtFSURBVHhe7Vp5UBRXGvcPYwREYJjp7mFm\u002BpgZmO4eUA4PRFBBoogHipGYxHAKnjHGXLuaw2QTtTYhietmN5XKVmXdZBPjEVEJOYixNGuym2tjZWNI1GjMKoi3BgSB39Z7w1CkZ0CGU7P8qn41Df36zff9\u002Bn3vfe97M2BAP64TjB8/kI/iQ3yhQVWHaLu5YWGMsCSyTukMI4vt0tD8yTqtZ1hFKNH2c8OCieAnGiOtYFUJQ2UBgW1wiCxAp4gwRtrAKOI\u002BbT83LFiHkKxXJUhOK95ITkBZahJ2piZ68MNJ41A0ahgCVJEIsFvbzw0LIoBOleCItOH8jMlA5lRgVronb52B4qSRuEkRfn0CsE4JJlVCeqyCmXEqZsR6cnacE3HDwkFGy69KACacTzVGWYlTCHDw8G\u002BDfg4LgmUBRqcVjCrs1fZzwyLUYQljVWkrq4iXWEUEocHBIzTcDF24iX6Sv933WFX6mVGF9dp\u002BbkgwsjCLVaV3DLJQFSiyjYOMQRhsCoHOboJleATEWAX88Ajows0YbNKB3A8UmEZG5s\u002BzqriXdQpztX3eENArQgznlMoZVYSfJRSBIoMxU5LxwOqVeH37Znz8xb9QcfQQjvz3GL47dhiffPkZNu3Yiod\u002B9wiSpqViqMRhsFkH8jzrlPaxijha\u002Bx3XLVhVWsI5rbWBEotAkcXcwhy8v3c3auqvoCO40lCPPR/vQ87dRQiyGjFEZMCpUj2jSvdpv\u002Bu6A6uIz3CRVtxkDMLISUl4Z095i2P1aEBtQ901Sdq58eH\u002BfRg7dSJu4oLAOa1gFelF7XdeN2AV8Tmy3BHn85cvwrlLF1xvtLHew0k3r6Kxzfvk/wSXa37G4oeWUxFYEhKK8Ir2u/scrCw\u002BRN88F0Tj2A2tU61JnaurQVM7ItU01NH7BI8Xr8XNYcFkTgCnCOu0NvQZjIqURIYncX7pb1dQYxvQ6OFMazaiCds\u002BKIU8eTRWrV\u002BDq40NbYpASEYKwcq1q\u002BkIo\u002BEgS9O0tvQ6BEEYzCrSN/68ASmZ6aitv0Kd0zrQmu6hPXNpNgaIgRCSo1F5rvqazxFRSZuM7Cy6QrCKeCzU4QjU2tSrYGRhuUERYHBY8OU3B6hjZNhqjfcmwKy7szFQ5RAxeTROnK26pgCEBN8dPQRTlB16mQcji49qbeo1mM1mP1YWjg4KC8b9j6\u002BkxrU3jLUCzF6WSwVwpMXj5NlTHRKAkOCJ4rU0FBhFrAqxWoO0tvUKSJZnkHmau5OkhkBrrDd2VQAyKR47\u002BRPEGBl6hwUGWczW2tYrYBTxdX9ejzsW5nX47RN2VQD384X3LXVli4q4S2tbj8MYZ/RnZOE4yetf2fxah99\u002Bawc6KwAhwZbS7fAzh4JxCGeCBCFYa2OPQq9Yw8nER3ZvByr\u002B0ykBMpflYoDCwt4JAUgYHPrxCCzDIlxh4OATtDZ6Bam4sk4hmRYpukBGEVaG2E2ITBqB0xfP\u002BmQ8EYA4MPPeAhidYVDTE/CTj32QvODilcsYeUsSgu3Gjs8DruKEDRzJpmSxc3SI4BQRQwQGybOmUIc6mucTXmm6SjdG/1iSj8MTxmD/tImoPv4DyLjQtm2LdU0uEdNvz6SbJZKJan31CvL2iPMkp\u002BZi7OBiw8HG2H0ifSbKCn\u002BzHlPvyKSG1DVd9TCyLZI94aV/foQLExNxdvokXEgZi3PrnkAtyQaJCB2YTN1hNKdgHvwFA/HnKa2vXkEFIG8xxg7xpbmQXsuGdeNdvnFzHixLU\u002BCvD0babRloQJPvAnz1OSrHx6MyZSyqJk9AZWoSqpctxOV/f0bvUyG8PNvSh3seybsdAUQAh7Ba66tXtAgQa4f0ajZsOwqR/tlq3Pr1WmQeWNMuSRvS1v7uQlhWTUEgq0PClGRcrq\u002BhMak1sk021uNKUwMubHoV1YsKUJ0/D5UTxqBy3ChUThqPs8XrUHOq0iVCG6FV39RAOXH2VARaWTAO8R6tr17RWgDxr/Nge6sAc75ag/zvn0d2RXG7zP3\u002BedrWtrMI/LoMhPAcbCOcOH7qBA0DrZHtkojgdvDyJZz/\u002B0ZUzUxHZdIoylNZGbjw1mbUNlxFrZe\u002ByYRZfeEMnGPjaF2RUYSZWl\u002B9wpsAmV8\u002Biexvi3HnN0\u002B3y7u\u002BLaZtbdvn0/BhnCKGCiz2fPKRT8vgL0hCh9QEAPz841GcefIxVE5MROW40ZSnVyxFzamTdMS0fo7g0wNfIDSCLoGNunBB0frqFb8IgY3zYN1WALVkASJ3LOwQSVvrlnxYt\u002BXDmBKFgSEBeGr97zsvQCu6Y//S/n2oLspFZeJInIgKx8XyMo85gWD9y38C2YcwilBBDmC1vnqFNwHETTkQOkjSlkyCtreLYC4ajwB9MJKm34K6hnoak1qnfKY7NGprcP71jTj34gbUXDznGinNbeqbyIzThMlZGRgiMSQV/qPWzzbhTQDikK\u002B07ZgPccMcMOE8/M2hKNvzfreMghY2h4W3iZBg76f7ESRx9LClw1kgQYsAcXZYt\u002BTB9u4i\u002BjZ95wLYP1gM022j4acPwuTbMnC1eWb2cKYbSZZbuvzlzoUfryep\u002BH6tj\u002B2CCqCI4IZZYS4aR9dzy5Jk37k4GZblqTDNGQXWztO9\u002BZ83vty9o8ALCV7b/iY9XCG1QYMqpGl9bBeMbLnFOIykwlZwkgWsaAbDm8DwYTCwLBiGhd7AQBeqh07fzFA9Qg0Ges/QmgYGjMkIVjIjRDSSyYjOzD0hAqkyERw8XEFPlEIizCT93az175owhAvRnCrtJqevhKwsfkHP45wSwtKGw5geDWHGSChZiZDnjKUk17ZZo\u002Bm9sPQYT06PhXFEBAI4HZyJI3Dk\u002BNFuF4HgRHUl3fwE8AZyUHKci7YbtP75DEYW4lsmxTdywJcUIGHvA8g/tgHZR56nJNdpnz8GflsebCXzPVm2AOILWeCibBhsGIqYlAQcPFRBjfYlRfZGd8p7\u002BMcfED8lmRZAyKmTTxNfe2AdwoQWAf42D/yWXMSX34uc757FnQefpiTXkz5eBX5TNp04Pdi8LArPZJI3Az9DEKQ4FdveLqHGE3S0WtTCRtdbJygtfwfho4bRM0bOKdWxMt995XDtsshvzkX8\u002B/cip\u002BLZlgyQXE/avwr8G9key\u002BEvlsa3iyA\u002BNxvGuHAEMjoEWPTIv2cRDhz8usUZUt1vSwzyf1f134WKI99j0YP30IPVIJsRRqdUxSh8qtaHLqE7BaAilBZCeuVOhE2Pg95ixKDQQLpW5y1biF3vleHk6apWLnri1NnTKNv9Hhbcfzctfd9sCqEnxOSk2WC32LT2dxndLQAVoWQ\u002BrCXzwT88BcaxCkLNHAaFDIG/KRRyfDQy7srC8ocfxNo/FOO5l17Aug3PYsWjv8GsnLlQE2JpoYXEOqn7c6p0iFHFIq3d3YaeEIBySz5spUWwvpkH/pF0ulIwkRKCTQz8dEMxKDgAA4P86V5ioCEQg4zBIBVmXYQZBlmo4VTxPVYV8gyqoWd/MNljAri51SUEGRXSX\u002B4Av3oazAvGw5Q1CmFTYxCWFk2/myRnrCLsYWVhLhvBS1o7eww9LoCbZLV4qwC2XUUuQXYW0v0EuQ6bFgvOLpC09gGtfT2OXhPAG7e6NlVkJLgE6GBZqzvRpwKQzVhJvwD9AvQL0C9AvwD9AvQLcD0JMKZ8BQoOraeOE5LrtE8e\u002Bf8QQNyaTw8/EspX0JFAmPDBCkSXLoH4Zq6nE13hdSVAqzK5VFoIfmcBhGbyOwog7iqkpXDP8ngXWFYEe/lihM2IBWfrSwG6o0zeWS5LgTFBASdLfSOAtzI5Sz57i6IZnCLBNDy8b37/qy2T9xWNkdbdnCrmaO3rRz/60Y/O4n\u002BuWvyeNGvB/wAAAABJRU5ErkJggg==",
-        "category": "Timing \u0026 splits",
-        "shortName": "NSMBW Autosplitter",
-        "versionLabel": "2.1.0",
-        "summary": "A capture-window OCR utility for the on-screen run timer. Train the timer font, then send detected times to your timing workflow.",
-        "features": [
-          "Crop and train against your capture window.",
-          "Read and type a time manually, or watch continuously.",
-          "Configure LiveSplit start/stop hotkeys and automatic attempt resets."
-        ],
-        "setup": [
-          "Requires the .NET 8 Windows Desktop runtime for the small build.",
-          "Open your capture window, configure the timer crop, train a sample and test OCR.",
-          "Capture settings and timer templates are saved beside the EXE."
-        ],
-        "accent": "#57734F",
-        "mark": "AS"
-      }
-    },
-    {
       "id": "as64-plus-plus",
       "name": "AS64\u002B\u002B",
       "description": "Automatically split Super Mario 64 runs from captured gameplay.",
@@ -980,6 +937,49 @@
         "setup": [],
         "accent": "#CB5A36",
         "mark": "LS"
+      }
+    },
+    {
+      "id": "nsmbw-autosplitter",
+      "name": "NSMBW Autosplitter",
+      "description": "Read the timer from your capture feed and send splits automatically.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": null,
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "2.1.1",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261006-142414-491417b8/nsmbw-autosplitter-NSMBWAutosplitter.exe",
+        "fileName": "NSMBWAutosplitter.exe",
+        "sha256": "DD34EC98F93DFDEBCA89D36989E06A9FE9DCE21C9C235F9BB6A58B770B220015",
+        "sizeBytes": 371913,
+        "notes": "Detected local build 2.1.1. Review this release before publishing.",
+        "publishedAt": "2026-10-06T14:24:14.8856889+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAtFSURBVHhe7Vp5UBRXGvcPYwREYJjp7mFm\u002BpgZmO4eUA4PRFBBoogHipGYxHAKnjHGXLuaw2QTtTYhietmN5XKVmXdZBPjEVEJOYixNGuym2tjZWNI1GjMKoi3BgSB39Z7w1CkZ0CGU7P8qn41Df36zff9\u002Bn3vfe97M2BAP64TjB8/kI/iQ3yhQVWHaLu5YWGMsCSyTukMI4vt0tD8yTqtZ1hFKNH2c8OCieAnGiOtYFUJQ2UBgW1wiCxAp4gwRtrAKOI\u002BbT83LFiHkKxXJUhOK95ITkBZahJ2piZ68MNJ41A0ahgCVJEIsFvbzw0LIoBOleCItOH8jMlA5lRgVronb52B4qSRuEkRfn0CsE4JJlVCeqyCmXEqZsR6cnacE3HDwkFGy69KACacTzVGWYlTCHDw8G\u002BDfg4LgmUBRqcVjCrs1fZzwyLUYQljVWkrq4iXWEUEocHBIzTcDF24iX6Sv933WFX6mVGF9dp\u002BbkgwsjCLVaV3DLJQFSiyjYOMQRhsCoHOboJleATEWAX88Ajows0YbNKB3A8UmEZG5s\u002BzqriXdQpztX3eENArQgznlMoZVYSfJRSBIoMxU5LxwOqVeH37Znz8xb9QcfQQjvz3GL47dhiffPkZNu3Yiod\u002B9wiSpqViqMRhsFkH8jzrlPaxijha\u002Bx3XLVhVWsI5rbWBEotAkcXcwhy8v3c3auqvoCO40lCPPR/vQ87dRQiyGjFEZMCpUj2jSvdpv\u002Bu6A6uIz3CRVtxkDMLISUl4Z095i2P1aEBtQ901Sdq58eH\u002BfRg7dSJu4oLAOa1gFelF7XdeN2AV8Tmy3BHn85cvwrlLF1xvtLHew0k3r6Kxzfvk/wSXa37G4oeWUxFYEhKK8Ir2u/scrCw\u002BRN88F0Tj2A2tU61JnaurQVM7ItU01NH7BI8Xr8XNYcFkTgCnCOu0NvQZjIqURIYncX7pb1dQYxvQ6OFMazaiCds\u002BKIU8eTRWrV\u002BDq40NbYpASEYKwcq1q\u002BkIo\u002BEgS9O0tvQ6BEEYzCrSN/68ASmZ6aitv0Kd0zrQmu6hPXNpNgaIgRCSo1F5rvqazxFRSZuM7Cy6QrCKeCzU4QjU2tSrYGRhuUERYHBY8OU3B6hjZNhqjfcmwKy7szFQ5RAxeTROnK26pgCEBN8dPQRTlB16mQcji49qbeo1mM1mP1YWjg4KC8b9j6\u002BkxrU3jLUCzF6WSwVwpMXj5NlTHRKAkOCJ4rU0FBhFrAqxWoO0tvUKSJZnkHmau5OkhkBrrDd2VQAyKR47\u002BRPEGBl6hwUGWczW2tYrYBTxdX9ejzsW5nX47RN2VQD384X3LXVli4q4S2tbj8MYZ/RnZOE4yetf2fxah99\u002Bawc6KwAhwZbS7fAzh4JxCGeCBCFYa2OPQq9Yw8nER3ZvByr\u002B0ykBMpflYoDCwt4JAUgYHPrxCCzDIlxh4OATtDZ6Bam4sk4hmRYpukBGEVaG2E2ITBqB0xfP\u002BmQ8EYA4MPPeAhidYVDTE/CTj32QvODilcsYeUsSgu3Gjs8DruKEDRzJpmSxc3SI4BQRQwQGybOmUIc6mucTXmm6SjdG/1iSj8MTxmD/tImoPv4DyLjQtm2LdU0uEdNvz6SbJZKJan31CvL2iPMkp\u002BZi7OBiw8HG2H0ifSbKCn\u002BzHlPvyKSG1DVd9TCyLZI94aV/foQLExNxdvokXEgZi3PrnkAtyQaJCB2YTN1hNKdgHvwFA/HnKa2vXkEFIG8xxg7xpbmQXsuGdeNdvnFzHixLU\u002BCvD0babRloQJPvAnz1OSrHx6MyZSyqJk9AZWoSqpctxOV/f0bvUyG8PNvSh3seybsdAUQAh7Ba66tXtAgQa4f0ajZsOwqR/tlq3Pr1WmQeWNMuSRvS1v7uQlhWTUEgq0PClGRcrq\u002BhMak1sk021uNKUwMubHoV1YsKUJ0/D5UTxqBy3ChUThqPs8XrUHOq0iVCG6FV39RAOXH2VARaWTAO8R6tr17RWgDxr/Nge6sAc75ag/zvn0d2RXG7zP3\u002BedrWtrMI/LoMhPAcbCOcOH7qBA0DrZHtkojgdvDyJZz/\u002B0ZUzUxHZdIoylNZGbjw1mbUNlxFrZe\u002ByYRZfeEMnGPjaF2RUYSZWl\u002B9wpsAmV8\u002Biexvi3HnN0\u002B3y7u\u002BLaZtbdvn0/BhnCKGCiz2fPKRT8vgL0hCh9QEAPz841GcefIxVE5MROW40ZSnVyxFzamTdMS0fo7g0wNfIDSCLoGNunBB0frqFb8IgY3zYN1WALVkASJ3LOwQSVvrlnxYt\u002BXDmBKFgSEBeGr97zsvQCu6Y//S/n2oLspFZeJInIgKx8XyMo85gWD9y38C2YcwilBBDmC1vnqFNwHETTkQOkjSlkyCtreLYC4ajwB9MJKm34K6hnoak1qnfKY7NGprcP71jTj34gbUXDznGinNbeqbyIzThMlZGRgiMSQV/qPWzzbhTQDikK\u002B07ZgPccMcMOE8/M2hKNvzfreMghY2h4W3iZBg76f7ESRx9LClw1kgQYsAcXZYt\u002BTB9u4i\u002BjZ95wLYP1gM022j4acPwuTbMnC1eWb2cKYbSZZbuvzlzoUfryep\u002BH6tj\u002B2CCqCI4IZZYS4aR9dzy5Jk37k4GZblqTDNGQXWztO9\u002BZ83vty9o8ALCV7b/iY9XCG1QYMqpGl9bBeMbLnFOIykwlZwkgWsaAbDm8DwYTCwLBiGhd7AQBeqh07fzFA9Qg0Ges/QmgYGjMkIVjIjRDSSyYjOzD0hAqkyERw8XEFPlEIizCT93az175owhAvRnCrtJqevhKwsfkHP45wSwtKGw5geDWHGSChZiZDnjKUk17ZZo\u002Bm9sPQYT06PhXFEBAI4HZyJI3Dk\u002BNFuF4HgRHUl3fwE8AZyUHKci7YbtP75DEYW4lsmxTdywJcUIGHvA8g/tgHZR56nJNdpnz8GflsebCXzPVm2AOILWeCibBhsGIqYlAQcPFRBjfYlRfZGd8p7\u002BMcfED8lmRZAyKmTTxNfe2AdwoQWAf42D/yWXMSX34uc757FnQefpiTXkz5eBX5TNp04Pdi8LArPZJI3Az9DEKQ4FdveLqHGE3S0WtTCRtdbJygtfwfho4bRM0bOKdWxMt995XDtsshvzkX8\u002B/cip\u002BLZlgyQXE/avwr8G9key\u002BEvlsa3iyA\u002BNxvGuHAEMjoEWPTIv2cRDhz8usUZUt1vSwzyf1f134WKI99j0YP30IPVIJsRRqdUxSh8qtaHLqE7BaAilBZCeuVOhE2Pg95ixKDQQLpW5y1biF3vleHk6apWLnri1NnTKNv9Hhbcfzctfd9sCqEnxOSk2WC32LT2dxndLQAVoWQ\u002BrCXzwT88BcaxCkLNHAaFDIG/KRRyfDQy7srC8ocfxNo/FOO5l17Aug3PYsWjv8GsnLlQE2JpoYXEOqn7c6p0iFHFIq3d3YaeEIBySz5spUWwvpkH/pF0ulIwkRKCTQz8dEMxKDgAA4P86V5ioCEQg4zBIBVmXYQZBlmo4VTxPVYV8gyqoWd/MNljAri51SUEGRXSX\u002B4Av3oazAvGw5Q1CmFTYxCWFk2/myRnrCLsYWVhLhvBS1o7eww9LoCbZLV4qwC2XUUuQXYW0v0EuQ6bFgvOLpC09gGtfT2OXhPAG7e6NlVkJLgE6GBZqzvRpwKQzVhJvwD9AvQL0C9AvwD9AvQLcD0JMKZ8BQoOraeOE5LrtE8e\u002Bf8QQNyaTw8/EspX0JFAmPDBCkSXLoH4Zq6nE13hdSVAqzK5VFoIfmcBhGbyOwog7iqkpXDP8ngXWFYEe/lihM2IBWfrSwG6o0zeWS5LgTFBASdLfSOAtzI5Sz57i6IZnCLBNDy8b37/qy2T9xWNkdbdnCrmaO3rRz/60Y/O4n\u002BuWvyeNGvB/wAAAABJRU5ErkJggg==",
+        "category": "Timing \u0026 splits",
+        "shortName": "NSMBW Autosplitter",
+        "versionLabel": "2.1.1",
+        "summary": "A capture-window OCR utility for the on-screen run timer. Train the timer font, then send detected times to your timing workflow.",
+        "features": [
+          "Crop and train against your capture window.",
+          "Read and type a time manually, or watch continuously.",
+          "Configure LiveSplit start/stop hotkeys and automatic attempt resets."
+        ],
+        "setup": [
+          "Requires the .NET 8 Windows Desktop runtime for the small build.",
+          "Open your capture window, configure the timer crop, train a sample and test OCR.",
+          "Capture settings and timer templates are saved beside the EXE."
+        ],
+        "accent": "#57734F",
+        "mark": "AS"
       }
     }
   ]
