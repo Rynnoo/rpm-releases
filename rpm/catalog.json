@@ -729,56 +729,6 @@
       }
     },
     {
-      "id": "as64-plus-plus",
-      "name": "AS64\u002B\u002B",
-      "description": "Automatically split Super Mario 64 runs from captured gameplay.",
-      "kind": "application",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": null,
-        "format": "zip",
-        "entryPoint": "AutoSplit64Custom.exe",
-        "preservePaths": [
-          "config.ini",
-          "routes",
-          "templates",
-          ".log"
-        ],
-        "version": "1.0.65",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261009-013625-10c5ca81/as64-plus-plus-as64-plus-plus.zip",
-        "fileName": "as64-plus-plus.zip",
-        "sha256": "D230AA7E42699117B3EEEA7D8CA49FA55CA9C9B253B7496048DDA41173737B41",
-        "sizeBytes": 114372554,
-        "notes": "Detected local build 1.0.65. Review this release before publishing.",
-        "publishedAt": "2026-10-09T01:36:25.3732835+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAnbSURBVFhHzZd5UFRXFodPdyO7LC4oIKuiIsi\u002BNNCyBBFBGte4EygUBdTggqONGaMmLkFFC41aVmYSjREVZ\u002BISUdQRohFRopYmmggRFdxiMJrIaIWlv6ludSpFzZTOH6maX9Wpeu/dW\u002Bd897xzz3tX5NWyEJF\u002BIuIvInYdB/9o\u002BWk0mks5OXm8PVvHqLGT25QqVX7HSX\u002BUeiQlJd/JyJhKaGgoISEhpI6ezIRpBYjIrBdz5onIThEp\u002BS\u002B2XUQCO/h9PZmami5dufIDtClapma8xeqAAEYpnYhJTMWtt9\u002BPIpKgK9BRXltG\u002BbUyjtWWc7TuEOW1Byiv3cex2lJ6DOiBoq9Dm4jEd/T/Sjk7O5etLdrMkoICihfOZ0fYQNYqgggKiWBw8kRDFsp0GxYS3RCFpnEQUQa7G0nEnTA0t0PR3AzBKsAaVbKvYe78jv5fKXNz86Ki9ZtJHBRDhM8AQqys0UgPYoak4uYZ2CwiebpNC9HcjSaiIYrIexoifooi6sdIou\u002BqiW0IMwKYDH19gM4i0uV390FxCcktARHJlG8q5ry9O\u002BFmLkSnZhkcLhKR9IKtOiLvalDfCSfkZjg\u002Bs3xxfdsd9Q010XfDsQrqjEmy36sBFArFyHGRoT8lKcyfioj2d0OL7ey7kpaWxvTMTHIH9mOqvRlqM9VVlcipMQtHEnw/gpAHYfQqcOXc2iVceGssvhG2qBvUWAXbYpL06gw4zo2Pa30ysA/jTK1RKlW7RSTKz8/v3K5du2iuOUv7sgL0fbqi7ypgJ\u002Bg7Cz9bCZ\u002BYCn4DLXH5sydFH65jTISao\u002BZWrFL40HdzX6zC7FC\u002BRg30Gq6waJvs5MyGTw8RFDmUDRs20FJTTduMTC53VVFkKUyzMSetRzem21pRbK3kGxslWAu/WQlrBvRjavZMtuw/j5\u002BNO\u002BE9uxP2bQhWajtE6/1KAIPGO7r2/jUqYTiVx4/TPieHSzbCxO5dyErPZsWSIg7vr6Cxvolbdfc5uPcImWk5jHRxpk4TSPvSheww605wvyi6hXjh9Vkw0fejsPS3QQY6GABOi8jWF7b5hb37oss\u002Bl1Kp3HLixAnasjPYaSlMSh7BqSNVPGr6hcrKSvz9/UlNGczevaWcO3eOXbt2U/tdPRnpmRzXDqHVXsV6pTcmCf3xq0gk9k4Mo0\u002BNZufZHRw8u4/jZ8s4UP13jlQfZOqsNCwT3BCl4uuX8T1zc3N/a99XyiGPnkyZNJVrl\u002BrYuHEj7u7ujB49muozlRzZ6ouluYpevXrx9OlT9Ho9DQ0N5ObkcHFkIg9suzJO0RuzOXFo6hOIbowmtjGGoXcGk9I4mIRbsUxoGEmfd1xRzvZDTJRNxuj29vZbH1ef5kFPUxKD1Wxa/xdaW1qpq6tj5syZrF\u002B/Hn3jUkpWCuUbFaQMCaelpcUIYIA0QEzJSOdZpDeVnfzp7uaMw04t8Y2xxDVqiH1ptwYRdzMcj0W9MJnr/28Ap7y8PH3bhBRmWpvy\u002BWdlHC47Ykzz9u3bycnJYcH8HDhrwqmSSBbMTWPrYktGjRrF0qVLqa6uprW1lYqKCraN0nLPthsZ0guZEY9fdQKxjVFE39IQc0NDTL2G6PpQPN5xxmS2rwHggQEg7/IXB2h2UDA\u002Bfhj13zeg0\u002BmYMmUKX\u002BzfySdb38PHx5u2GmHJLAdj\u002Bhu\u002BVKO/t4abF9fyTnx/kuPjKCkpISs9nSe9HSiRMBQJA7D\u002BKIU3DCu/EUVMnYbYOg3RdWF4LuqFcqbPcwALC4vDT7cWU9JZwQrdCt5KS2fFihXo66aiv2BN3kQxVDHPzgjzM55fXz8gcE7grKAfI4xwtaf\u002B8i1yc3N5/GYcFYooHD2ckMLh\u002BNcMJu5WBLF1EcRfDSP\u002BuwD6LHRCNcMI0CSBQYGN7bocllkrKf2olMePHxvT23w\u002B1RhkT6Hg7ixUbxd2Fgo\u002BvYWWKoFqQb9c\u002BNpfGBGXyJWaH1i8eDH3dVlUmoQTbNsDWZWK7WfDiL4RScIP4STWhpLwfSB9/uSE1TxjEd4XbUrKk7bo/iy0VnJkz2FjYVVVVTFpwhharoyDGuHRSUGlFLzchJbzCuMz/UbhaoCQHBjIsX2nudvw03OAJdlUdBpEvJUjslKLFKfgef4Ngmo1BF6LxfvSIOxnuOFQEIjCRHlbhiQkPNYHOPKupbBj804KCwt59uwZp06dQqdbiP4bX5oqBEuFkkldXHl88nn69QuEbBclX\u002Bz\u002BkqNlJ6mpqXn\u002BCjK0nJIYQm26IytTkXVaTHYl07l8MFZlQ\u002BhUGo\u002BM70Of\u002BUEoTBS3xdHR8bvW8H58bCWs1BVy8cJF2tvbjbuguLgY/UU39DXC3PFKpkdb0XpG4IygzxWKvYUt60t49PNj427InZbFw/6eXJIwXN0dkSVDkfnxSF4UMluNzFIjuaGI2gWVucpQT2tFpVL99d7Y4fzaWZg4ZDi/PnrCvXv3KC0tperEHqgS9OsEfYZwfZLQPk/QzxH08cLnAYIu713uNz40dsttM7L4prMnVRKMMtYLceuC\u002BDoaAlWJyKYOlvayC8ZvSE6kPTuT6TExHNpzhPz8fA4ePMimSWr\u002BmSwc9BOSejvx5vAJaN268KmP0KgRVvcVVi0qpO7bG2RnZ9OUGssRhZol4oZkaRAXOxTDfF75MbL08XC9\u002BexkBU3795PoNYDrV24YO112dg7xcUnMmaHjbOVVGuof0Hj9IatXbkSb9CZ50/M5XX6BBfmLODYrkzPWAzgn4bg69kDeHYbC1Z5Oya8GMCjjQxcvfhs9kivONiQNDOB24z2Kior49vI1mn78hYqKSm7fvm3cJWvWrOHkl1/xy8/NLH9/OXvy3\u002BYHJzeOSxjvGVY/WY0sT0Fc7DEdNvC1ACysRHnyQnAc7R6dudNFmODa09iKm5ubjUG3bNlCbW2t8frKlSts27aN6VlZnJiVyVVHDw6KmsMSgFmQB7IsBflAi8K9C6ba1wMwyMZLTK\u002BdNvWkzq4nz3qq2N1VwUQXR6akZxj3\u002BLJly5g3bx7TsrJYPfQNHo5I5CtLL/ZLCMclAAePnsifhyLvD0M2alF42WOROuC1AQxychbT8x/LAPbJIKosvLlu70CTjxv1saFcT4nhgTaeq56\u002BVJp7s0ciqZBB7BRvuvZ1RAoSkBXJyOphyLYklH3t6TL29TPwUjYqkb2Z0l2/TwI5KjGUStwLi2WPxPI3iaFSYviHBDO5kxPKFG9j2zX0flk3EtkyGikZiZlPN/okuhsA0jsGeR0FKkW2J4ldW764Uij92Sy\u002BLJP\u002B5Is70WJnOPHcFldbJMQZCXZFgt2QcHdE7Y5o3BFrM72IrOro\u002BH\u002BVrYiMepFGw3lg9otfd8M5wiDDidlVRLz\u002Bg/Xo4Ov/T/8Ck0HoPhrxXdQAAAAASUVORK5CYII=",
-        "category": "SM64 timing \u0026 capture",
-        "shortName": "AS64\u002B\u002B",
-        "versionLabel": "1.0.65",
-        "summary": "A customized AutoSplit64 fork that watches console gameplay and controls LiveSplit, with route editing, star detection and reset template profiles.",
-        "features": [
-          "Automatic splits, star counting and console reset detection.",
-          "OBS frame-grabber or window capture input.",
-          "Custom routes, LiveSplit split-file conversion and reset profiles."
-        ],
-        "setup": [
-          "Requires Windows 10\u002B, LiveSplit 1.8.29\u002B, and a capture feed. OBS integration requires OBS 30\u002B.",
-          "Set LiveSplit to start at 1.36 seconds, configure capture, choose or import a route, then generate reset templates.",
-          "Access capture and route controls from the AS64\u002B\u002B right-click menu.",
-          "For OBS integration, install the AS64\u002B frame-grabber plugin separately. This release folder does not include its DLL. Window capture is also available.",
-          "Routes, config.ini and generated templates are kept during launcher updates."
-        ],
-        "accent": "#CB5A36",
-        "mark": "AS"
-      }
-    },
-    {
       "id": "livesplit-custom",
       "name": "LiveSplit Custom",
       "description": "LiveSplit with Rynnoo\u0027s core fixes and all its bundled components.",
@@ -1029,6 +979,56 @@
         "setup": [],
         "accent": "#CB5A36",
         "mark": "LS"
+      }
+    },
+    {
+      "id": "as64-plus-plus",
+      "name": "AS64\u002B\u002B",
+      "description": "Automatically split Super Mario 64 runs from captured gameplay.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": null,
+        "format": "zip",
+        "entryPoint": "AutoSplit64Custom.exe",
+        "preservePaths": [
+          "config.ini",
+          "routes",
+          "templates",
+          ".log"
+        ],
+        "version": "1.0.66",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261009-014149-1860ed77/as64-plus-plus-as64-plus-plus.zip",
+        "fileName": "as64-plus-plus.zip",
+        "sha256": "4BEC8F18B62202DD8BABD5181D025BDA32292EFBB31801BBA126F5613B41D7C5",
+        "sizeBytes": 114372454,
+        "notes": "Detected local build 1.0.66. Review this release before publishing.",
+        "publishedAt": "2026-10-09T01:41:49.9366221+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAnbSURBVFhHzZd5UFRXFodPdyO7LC4oIKuiIsi\u002BNNCyBBFBGte4EygUBdTggqONGaMmLkFFC41aVmYSjREVZ\u002BISUdQRohFRopYmmggRFdxiMJrIaIWlv6ludSpFzZTOH6maX9Wpeu/dW\u002Bd897xzz3tX5NWyEJF\u002BIuIvInYdB/9o\u002BWk0mks5OXm8PVvHqLGT25QqVX7HSX\u002BUeiQlJd/JyJhKaGgoISEhpI6ezIRpBYjIrBdz5onIThEp\u002BS\u002B2XUQCO/h9PZmami5dufIDtClapma8xeqAAEYpnYhJTMWtt9\u002BPIpKgK9BRXltG\u002BbUyjtWWc7TuEOW1Byiv3cex2lJ6DOiBoq9Dm4jEd/T/Sjk7O5etLdrMkoICihfOZ0fYQNYqgggKiWBw8kRDFsp0GxYS3RCFpnEQUQa7G0nEnTA0t0PR3AzBKsAaVbKvYe78jv5fKXNz86Ki9ZtJHBRDhM8AQqys0UgPYoak4uYZ2CwiebpNC9HcjSaiIYrIexoifooi6sdIou\u002BqiW0IMwKYDH19gM4i0uV390FxCcktARHJlG8q5ry9O\u002BFmLkSnZhkcLhKR9IKtOiLvalDfCSfkZjg\u002Bs3xxfdsd9Q010XfDsQrqjEmy36sBFArFyHGRoT8lKcyfioj2d0OL7ey7kpaWxvTMTHIH9mOqvRlqM9VVlcipMQtHEnw/gpAHYfQqcOXc2iVceGssvhG2qBvUWAXbYpL06gw4zo2Pa30ysA/jTK1RKlW7RSTKz8/v3K5du2iuOUv7sgL0fbqi7ypgJ\u002Bg7Cz9bCZ\u002BYCn4DLXH5sydFH65jTISao\u002BZWrFL40HdzX6zC7FC\u002BRg30Gq6waJvs5MyGTw8RFDmUDRs20FJTTduMTC53VVFkKUyzMSetRzem21pRbK3kGxslWAu/WQlrBvRjavZMtuw/j5\u002BNO\u002BE9uxP2bQhWajtE6/1KAIPGO7r2/jUqYTiVx4/TPieHSzbCxO5dyErPZsWSIg7vr6Cxvolbdfc5uPcImWk5jHRxpk4TSPvSheww605wvyi6hXjh9Vkw0fejsPS3QQY6GABOi8jWF7b5hb37oss\u002Bl1Kp3HLixAnasjPYaSlMSh7BqSNVPGr6hcrKSvz9/UlNGczevaWcO3eOXbt2U/tdPRnpmRzXDqHVXsV6pTcmCf3xq0gk9k4Mo0\u002BNZufZHRw8u4/jZ8s4UP13jlQfZOqsNCwT3BCl4uuX8T1zc3N/a99XyiGPnkyZNJVrl\u002BrYuHEj7u7ujB49muozlRzZ6ouluYpevXrx9OlT9Ho9DQ0N5ObkcHFkIg9suzJO0RuzOXFo6hOIbowmtjGGoXcGk9I4mIRbsUxoGEmfd1xRzvZDTJRNxuj29vZbH1ef5kFPUxKD1Wxa/xdaW1qpq6tj5syZrF\u002B/Hn3jUkpWCuUbFaQMCaelpcUIYIA0QEzJSOdZpDeVnfzp7uaMw04t8Y2xxDVqiH1ptwYRdzMcj0W9MJnr/28Ap7y8PH3bhBRmWpvy\u002BWdlHC47Ykzz9u3bycnJYcH8HDhrwqmSSBbMTWPrYktGjRrF0qVLqa6uprW1lYqKCraN0nLPthsZ0guZEY9fdQKxjVFE39IQc0NDTL2G6PpQPN5xxmS2rwHggQEg7/IXB2h2UDA\u002Bfhj13zeg0\u002BmYMmUKX\u002BzfySdb38PHx5u2GmHJLAdj\u002Bhu\u002BVKO/t4abF9fyTnx/kuPjKCkpISs9nSe9HSiRMBQJA7D\u002BKIU3DCu/EUVMnYbYOg3RdWF4LuqFcqbPcwALC4vDT7cWU9JZwQrdCt5KS2fFihXo66aiv2BN3kQxVDHPzgjzM55fXz8gcE7grKAfI4xwtaf\u002B8i1yc3N5/GYcFYooHD2ckMLh\u002BNcMJu5WBLF1EcRfDSP\u002BuwD6LHRCNcMI0CSBQYGN7bocllkrKf2olMePHxvT23w\u002B1RhkT6Hg7ixUbxd2Fgo\u002BvYWWKoFqQb9c\u002BNpfGBGXyJWaH1i8eDH3dVlUmoQTbNsDWZWK7WfDiL4RScIP4STWhpLwfSB9/uSE1TxjEd4XbUrKk7bo/iy0VnJkz2FjYVVVVTFpwhharoyDGuHRSUGlFLzchJbzCuMz/UbhaoCQHBjIsX2nudvw03OAJdlUdBpEvJUjslKLFKfgef4Ngmo1BF6LxfvSIOxnuOFQEIjCRHlbhiQkPNYHOPKupbBj804KCwt59uwZp06dQqdbiP4bX5oqBEuFkkldXHl88nn69QuEbBclX\u002Bz\u002BkqNlJ6mpqXn\u002BCjK0nJIYQm26IytTkXVaTHYl07l8MFZlQ\u002BhUGo\u002BM70Of\u002BUEoTBS3xdHR8bvW8H58bCWs1BVy8cJF2tvbjbuguLgY/UU39DXC3PFKpkdb0XpG4IygzxWKvYUt60t49PNj427InZbFw/6eXJIwXN0dkSVDkfnxSF4UMluNzFIjuaGI2gWVucpQT2tFpVL99d7Y4fzaWZg4ZDi/PnrCvXv3KC0tperEHqgS9OsEfYZwfZLQPk/QzxH08cLnAYIu713uNz40dsttM7L4prMnVRKMMtYLceuC\u002BDoaAlWJyKYOlvayC8ZvSE6kPTuT6TExHNpzhPz8fA4ePMimSWr\u002BmSwc9BOSejvx5vAJaN268KmP0KgRVvcVVi0qpO7bG2RnZ9OUGssRhZol4oZkaRAXOxTDfF75MbL08XC9\u002BexkBU3795PoNYDrV24YO112dg7xcUnMmaHjbOVVGuof0Hj9IatXbkSb9CZ50/M5XX6BBfmLODYrkzPWAzgn4bg69kDeHYbC1Z5Oya8GMCjjQxcvfhs9kivONiQNDOB24z2Kior49vI1mn78hYqKSm7fvm3cJWvWrOHkl1/xy8/NLH9/OXvy3\u002BYHJzeOSxjvGVY/WY0sT0Fc7DEdNvC1ACysRHnyQnAc7R6dudNFmODa09iKm5ubjUG3bNlCbW2t8frKlSts27aN6VlZnJiVyVVHDw6KmsMSgFmQB7IsBflAi8K9C6ba1wMwyMZLTK\u002BdNvWkzq4nz3qq2N1VwUQXR6akZxj3\u002BLJly5g3bx7TsrJYPfQNHo5I5CtLL/ZLCMclAAePnsifhyLvD0M2alF42WOROuC1AQxychbT8x/LAPbJIKosvLlu70CTjxv1saFcT4nhgTaeq56\u002BVJp7s0ciqZBB7BRvuvZ1RAoSkBXJyOphyLYklH3t6TL29TPwUjYqkb2Z0l2/TwI5KjGUStwLi2WPxPI3iaFSYviHBDO5kxPKFG9j2zX0flk3EtkyGikZiZlPN/okuhsA0jsGeR0FKkW2J4ldW764Uij92Sy\u002BLJP\u002B5Is70WJnOPHcFldbJMQZCXZFgt2QcHdE7Y5o3BFrM72IrOro\u002BH\u002BVrYiMepFGw3lg9otfd8M5wiDDidlVRLz\u002Bg/Xo4Ov/T/8Ck0HoPhrxXdQAAAAASUVORK5CYII=",
+        "category": "SM64 timing \u0026 capture",
+        "shortName": "AS64\u002B\u002B",
+        "versionLabel": "1.0.66",
+        "summary": "A customized AutoSplit64 fork that watches console gameplay and controls LiveSplit, with route editing, star detection and reset template profiles.",
+        "features": [
+          "Automatic splits, star counting and console reset detection.",
+          "OBS frame-grabber or window capture input.",
+          "Custom routes, LiveSplit split-file conversion and reset profiles."
+        ],
+        "setup": [
+          "Requires Windows 10\u002B, LiveSplit 1.8.29\u002B, and a capture feed. OBS integration requires OBS 30\u002B.",
+          "Set LiveSplit to start at 1.36 seconds, configure capture, choose or import a route, then generate reset templates.",
+          "Access capture and route controls from the AS64\u002B\u002B right-click menu.",
+          "For OBS integration, install the AS64\u002B frame-grabber plugin separately. This release folder does not include its DLL. Window capture is also available.",
+          "Routes, config.ini and generated templates are kept during launcher updates."
+        ],
+        "accent": "#CB5A36",
+        "mark": "AS"
       }
     }
   ]
