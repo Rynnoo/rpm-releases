@@ -635,52 +635,6 @@
       }
     },
     {
-      "id": "usamune-practice",
-      "name": "Usamune Practice",
-      "description": "SM64 practice ROM patch",
-      "kind": "practiceRom",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": {
-          "patch_format": "BPS1",
-          "source_byte_order": "z64",
-          "version": 74,
-          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
-          "output_sha256": "f0e91196e0bf5e4bb90009d02f7eecd0331141475f431932036e84f893169fc2",
-          "output_filename": "SM64_USAMUNE_Practice.z64",
-          "patch_file": "Usamune_Practice_v74_JP.bps",
-          "save_file": "SM64_USAMUNE_Practice.sav",
-          "save_size_bytes": 131072,
-          "semanticVersion": "0.0.74"
-        },
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.74",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261007-233212-3d3e8b8c/usamune-practice-Usamune_Practice_v74_JP.bps",
-        "fileName": "Usamune_Practice_v74_JP.bps",
-        "sha256": "B6879AFCAE4F702CDC66F0C9F0B5A1A3334842000D95D17A743BBDF75EA43C27",
-        "sizeBytes": 214787,
-        "notes": "",
-        "publishedAt": "2026-10-07T23:32:12.6525327+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "SM64 / Practice ROM",
-        "shortName": "Usamune Practice",
-        "versionLabel": "v74",
-        "summary": "",
-        "features": [],
-        "setup": [],
-        "accent": "#CB5A36",
-        "mark": "UP"
-      }
-    },
-    {
       "id": "livesplit-bettersubsplits",
       "name": "Better Subsplits",
       "description": "A customized subsplits component for your LiveSplit layout.",
@@ -726,6 +680,102 @@
         ],
         "accent": "#66725B",
         "mark": "BS"
+      }
+    },
+    {
+      "id": "as64-plus-plus",
+      "name": "AS64\u002B\u002B",
+      "description": "Automatically split Super Mario 64 runs from captured gameplay.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": null,
+        "format": "zip",
+        "entryPoint": "AutoSplit64Custom.exe",
+        "preservePaths": [
+          "config.ini",
+          "routes",
+          "templates",
+          ".log"
+        ],
+        "version": "1.0.70",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261010-013611-345fc187/as64-plus-plus-as64-plus-plus.zip",
+        "fileName": "as64-plus-plus.zip",
+        "sha256": "8AA2C9A6897DE982B598F4707B4F55BC0F87658115AD2BAF15C8ED203312D36A",
+        "sizeBytes": 114376240,
+        "notes": "Detected local build 1.0.70. Review this release before publishing.",
+        "publishedAt": "2026-10-10T01:36:11.2540413+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAnbSURBVFhHzZd5UFRXFodPdyO7LC4oIKuiIsi\u002BNNCyBBFBGte4EygUBdTggqONGaMmLkFFC41aVmYSjREVZ\u002BISUdQRohFRopYmmggRFdxiMJrIaIWlv6ludSpFzZTOH6maX9Wpeu/dW\u002Bd897xzz3tX5NWyEJF\u002BIuIvInYdB/9o\u002BWk0mks5OXm8PVvHqLGT25QqVX7HSX\u002BUeiQlJd/JyJhKaGgoISEhpI6ezIRpBYjIrBdz5onIThEp\u002BS\u002B2XUQCO/h9PZmami5dufIDtClapma8xeqAAEYpnYhJTMWtt9\u002BPIpKgK9BRXltG\u002BbUyjtWWc7TuEOW1Byiv3cex2lJ6DOiBoq9Dm4jEd/T/Sjk7O5etLdrMkoICihfOZ0fYQNYqgggKiWBw8kRDFsp0GxYS3RCFpnEQUQa7G0nEnTA0t0PR3AzBKsAaVbKvYe78jv5fKXNz86Ki9ZtJHBRDhM8AQqys0UgPYoak4uYZ2CwiebpNC9HcjSaiIYrIexoifooi6sdIou\u002BqiW0IMwKYDH19gM4i0uV390FxCcktARHJlG8q5ry9O\u002BFmLkSnZhkcLhKR9IKtOiLvalDfCSfkZjg\u002Bs3xxfdsd9Q010XfDsQrqjEmy36sBFArFyHGRoT8lKcyfioj2d0OL7ey7kpaWxvTMTHIH9mOqvRlqM9VVlcipMQtHEnw/gpAHYfQqcOXc2iVceGssvhG2qBvUWAXbYpL06gw4zo2Pa30ysA/jTK1RKlW7RSTKz8/v3K5du2iuOUv7sgL0fbqi7ypgJ\u002Bg7Cz9bCZ\u002BYCn4DLXH5sydFH65jTISao\u002BZWrFL40HdzX6zC7FC\u002BRg30Gq6waJvs5MyGTw8RFDmUDRs20FJTTduMTC53VVFkKUyzMSetRzem21pRbK3kGxslWAu/WQlrBvRjavZMtuw/j5\u002BNO\u002BE9uxP2bQhWajtE6/1KAIPGO7r2/jUqYTiVx4/TPieHSzbCxO5dyErPZsWSIg7vr6Cxvolbdfc5uPcImWk5jHRxpk4TSPvSheww605wvyi6hXjh9Vkw0fejsPS3QQY6GABOi8jWF7b5hb37oss\u002Bl1Kp3HLixAnasjPYaSlMSh7BqSNVPGr6hcrKSvz9/UlNGczevaWcO3eOXbt2U/tdPRnpmRzXDqHVXsV6pTcmCf3xq0gk9k4Mo0\u002BNZufZHRw8u4/jZ8s4UP13jlQfZOqsNCwT3BCl4uuX8T1zc3N/a99XyiGPnkyZNJVrl\u002BrYuHEj7u7ujB49muozlRzZ6ouluYpevXrx9OlT9Ho9DQ0N5ObkcHFkIg9suzJO0RuzOXFo6hOIbowmtjGGoXcGk9I4mIRbsUxoGEmfd1xRzvZDTJRNxuj29vZbH1ef5kFPUxKD1Wxa/xdaW1qpq6tj5syZrF\u002B/Hn3jUkpWCuUbFaQMCaelpcUIYIA0QEzJSOdZpDeVnfzp7uaMw04t8Y2xxDVqiH1ptwYRdzMcj0W9MJnr/28Ap7y8PH3bhBRmWpvy\u002BWdlHC47Ykzz9u3bycnJYcH8HDhrwqmSSBbMTWPrYktGjRrF0qVLqa6uprW1lYqKCraN0nLPthsZ0guZEY9fdQKxjVFE39IQc0NDTL2G6PpQPN5xxmS2rwHggQEg7/IXB2h2UDA\u002Bfhj13zeg0\u002BmYMmUKX\u002BzfySdb38PHx5u2GmHJLAdj\u002Bhu\u002BVKO/t4abF9fyTnx/kuPjKCkpISs9nSe9HSiRMBQJA7D\u002BKIU3DCu/EUVMnYbYOg3RdWF4LuqFcqbPcwALC4vDT7cWU9JZwQrdCt5KS2fFihXo66aiv2BN3kQxVDHPzgjzM55fXz8gcE7grKAfI4xwtaf\u002B8i1yc3N5/GYcFYooHD2ckMLh\u002BNcMJu5WBLF1EcRfDSP\u002BuwD6LHRCNcMI0CSBQYGN7bocllkrKf2olMePHxvT23w\u002B1RhkT6Hg7ixUbxd2Fgo\u002BvYWWKoFqQb9c\u002BNpfGBGXyJWaH1i8eDH3dVlUmoQTbNsDWZWK7WfDiL4RScIP4STWhpLwfSB9/uSE1TxjEd4XbUrKk7bo/iy0VnJkz2FjYVVVVTFpwhharoyDGuHRSUGlFLzchJbzCuMz/UbhaoCQHBjIsX2nudvw03OAJdlUdBpEvJUjslKLFKfgef4Ngmo1BF6LxfvSIOxnuOFQEIjCRHlbhiQkPNYHOPKupbBj804KCwt59uwZp06dQqdbiP4bX5oqBEuFkkldXHl88nn69QuEbBclX\u002Bz\u002BkqNlJ6mpqXn\u002BCjK0nJIYQm26IytTkXVaTHYl07l8MFZlQ\u002BhUGo\u002BM70Of\u002BUEoTBS3xdHR8bvW8H58bCWs1BVy8cJF2tvbjbuguLgY/UU39DXC3PFKpkdb0XpG4IygzxWKvYUt60t49PNj427InZbFw/6eXJIwXN0dkSVDkfnxSF4UMluNzFIjuaGI2gWVucpQT2tFpVL99d7Y4fzaWZg4ZDi/PnrCvXv3KC0tperEHqgS9OsEfYZwfZLQPk/QzxH08cLnAYIu713uNz40dsttM7L4prMnVRKMMtYLceuC\u002BDoaAlWJyKYOlvayC8ZvSE6kPTuT6TExHNpzhPz8fA4ePMimSWr\u002BmSwc9BOSejvx5vAJaN268KmP0KgRVvcVVi0qpO7bG2RnZ9OUGssRhZol4oZkaRAXOxTDfF75MbL08XC9\u002BexkBU3795PoNYDrV24YO112dg7xcUnMmaHjbOVVGuof0Hj9IatXbkSb9CZ50/M5XX6BBfmLODYrkzPWAzgn4bg69kDeHYbC1Z5Oya8GMCjjQxcvfhs9kivONiQNDOB24z2Kior49vI1mn78hYqKSm7fvm3cJWvWrOHkl1/xy8/NLH9/OXvy3\u002BYHJzeOSxjvGVY/WY0sT0Fc7DEdNvC1ACysRHnyQnAc7R6dudNFmODa09iKm5ubjUG3bNlCbW2t8frKlSts27aN6VlZnJiVyVVHDw6KmsMSgFmQB7IsBflAi8K9C6ba1wMwyMZLTK\u002BdNvWkzq4nz3qq2N1VwUQXR6akZxj3\u002BLJly5g3bx7TsrJYPfQNHo5I5CtLL/ZLCMclAAePnsifhyLvD0M2alF42WOROuC1AQxychbT8x/LAPbJIKosvLlu70CTjxv1saFcT4nhgTaeq56\u002BVJp7s0ciqZBB7BRvuvZ1RAoSkBXJyOphyLYklH3t6TL29TPwUjYqkb2Z0l2/TwI5KjGUStwLi2WPxPI3iaFSYviHBDO5kxPKFG9j2zX0flk3EtkyGikZiZlPN/okuhsA0jsGeR0FKkW2J4ldW764Uij92Sy\u002BLJP\u002B5Is70WJnOPHcFldbJMQZCXZFgt2QcHdE7Y5o3BFrM72IrOro\u002BH\u002BVrYiMepFGw3lg9otfd8M5wiDDidlVRLz\u002Bg/Xo4Ov/T/8Ck0HoPhrxXdQAAAAASUVORK5CYII=",
+        "category": "SM64 timing \u0026 capture",
+        "shortName": "AS64\u002B\u002B",
+        "versionLabel": "1.0.70",
+        "summary": "A customized AutoSplit64 fork that watches console gameplay and controls LiveSplit, with route editing, star detection and reset template profiles.",
+        "features": [
+          "Automatic splits, star counting and console reset detection.",
+          "OBS frame-grabber or window capture input.",
+          "Custom routes, LiveSplit split-file conversion and reset profiles."
+        ],
+        "setup": [
+          "Requires Windows 10\u002B, LiveSplit 1.8.29\u002B, and a capture feed. OBS integration requires OBS 30\u002B.",
+          "Set LiveSplit to start at 1.36 seconds, configure capture, choose or import a route, then generate reset templates.",
+          "Access capture and route controls from the AS64\u002B\u002B right-click menu.",
+          "For OBS integration, install the AS64\u002B frame-grabber plugin separately. This release folder does not include its DLL. Window capture is also available.",
+          "Routes, config.ini and generated templates are kept during launcher updates."
+        ],
+        "accent": "#CB5A36",
+        "mark": "AS"
+      }
+    },
+    {
+      "id": "usamune-practice",
+      "name": "Usamune Practice",
+      "description": "SM64 practice ROM patch",
+      "kind": "practiceRom",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": {
+          "patch_format": "BPS1",
+          "source_byte_order": "z64",
+          "version": 75,
+          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
+          "output_sha256": "62b720350b4e9628f112091fc9cdf45fe90ddd112f7e02046ccf288bc08ee29f",
+          "output_filename": "SM64_USAMUNE_Practice.z64",
+          "patch_file": "Usamune_Practice_v75_JP.bps",
+          "save_file": "SM64_USAMUNE_Practice.sav",
+          "save_size_bytes": 131072,
+          "semanticVersion": "0.0.75"
+        },
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.75",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261010-013611-345fc187/usamune-practice-Usamune_Practice_v75_JP.bps",
+        "fileName": "Usamune_Practice_v75_JP.bps",
+        "sha256": "0AEB606E55FEAA9E3FBB578B5F553AA48AD863345C5E5DC981B2797D51528AC1",
+        "sizeBytes": 216173,
+        "notes": "",
+        "publishedAt": "2026-10-10T01:36:11.2653822+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "SM64 / Practice ROM",
+        "shortName": "Usamune Practice",
+        "versionLabel": "v75",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "UP"
       }
     },
     {
@@ -808,13 +858,13 @@
           "LiveSplit.Core.dll": "D84C84B630E90EF013F520463F9ED23D6E6204A30582482585FC42CF31EED130",
           "LiveSplit.Core.dll.config": "F309AE592EB2E040D704CB8D3F6274EB6AC00550790351838D41ACEC089E32A4",
           "LiveSplit.LayerStore.dll": "9F0B21EBA60567F3823D18102A8D722F0CB24E2A221C38163B6794650F36061B",
-          "LiveSplit.LayoutBrowser.dll": "64CF8B3AE26BD2AAFAD3AD2C35591C20990FD1847DEB300A6B348CD4DB868D1E",
+          "LiveSplit.LayoutBrowser.dll": "3F624B69338F84979790D7584CF0F794A782B5EC43A3F543D70FB8F6B9DE40B5",
           "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
           "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
           "LiveSplit.Register.exe": "6638E918444C3865BA5B547AD21B6B8EDDA3825C2A756ED0C1D8D7F740E3CBA8",
           "LiveSplit.Register.exe.config": "B89E78F3E43C48D7AD1CC6F4E713B6E4F2A8AB5B9A8B65F70F4E6AD62C8883C3",
           "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
-          "LiveSplit.Routes.dll": "E3F07BC43750A5017F30039008AED52B85991712B046A12E7DD8BC6B4530CCF5",
+          "LiveSplit.Routes.dll": "8C94A0A0550E6C8148C7CE8BA9DAAE461716B9A75BF65639B9A2C68E021DBB7A",
           "LiveSplit.Subsplits.dll": "9E37055CA4A5D647D5B4455B0B3852BF4CBF6CD0FB1B488CE1A97DB3359D6C47",
           "LiveSplit.View.dll": "F4E48E3965C097772342B2064773A9ADCC13ABB93A4CA52855DBB5D59F00E904",
           "LiveSplit.exe": "4F9167D81B30EE87AFE12F87DDE858E129703712CD2F94B3B451DFB673B0F6C1",
@@ -902,20 +952,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.27",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261009-013931-866f23ea/livesplit-custom-LiveSplit-Custom-1.0.27.zip",
-        "fileName": "LiveSplit-Custom-1.0.27.zip",
-        "sha256": "66E007F3EC54C9F9A81AAEBC41132F0072DB1232674E34EFB4B0144CB6437947",
-        "sizeBytes": 17308319,
+        "version": "1.0.29",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261010-013611-345fc187/livesplit-custom-LiveSplit-Custom-1.0.29.zip",
+        "fileName": "LiveSplit-Custom-1.0.29.zip",
+        "sha256": "1F2EF56DEB725A1165A63C06B48C30D6355086958CFC631045096C8EE88984DD",
+        "sizeBytes": 17312174,
         "notes": "Detected local build 1.0.0. Review this release before publishing.",
-        "publishedAt": "2026-10-09T01:39:31.2343843+00:00",
+        "publishedAt": "2026-10-10T01:36:11.464703+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "LiveSplit Custom",
-        "versionLabel": "1.0.27",
+        "versionLabel": "1.0.29",
         "summary": "Your custom LiveSplit core, with its components included. RPM checks for published updates automatically.",
         "features": [
           "Complete portable LiveSplit installation",
@@ -941,11 +991,11 @@
         "fileInventory": {
           "LiveSplit.Core.dll": "D84C84B630E90EF013F520463F9ED23D6E6204A30582482585FC42CF31EED130",
           "LiveSplit.LayerStore.dll": "9F0B21EBA60567F3823D18102A8D722F0CB24E2A221C38163B6794650F36061B",
-          "LiveSplit.LayoutBrowser.dll": "64CF8B3AE26BD2AAFAD3AD2C35591C20990FD1847DEB300A6B348CD4DB868D1E",
+          "LiveSplit.LayoutBrowser.dll": "3F624B69338F84979790D7584CF0F794A782B5EC43A3F543D70FB8F6B9DE40B5",
           "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
           "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
           "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
-          "LiveSplit.Routes.dll": "E3F07BC43750A5017F30039008AED52B85991712B046A12E7DD8BC6B4530CCF5",
+          "LiveSplit.Routes.dll": "8C94A0A0550E6C8148C7CE8BA9DAAE461716B9A75BF65639B9A2C68E021DBB7A",
           "LiveSplit.View.dll": "F4E48E3965C097772342B2064773A9ADCC13ABB93A4CA52855DBB5D59F00E904"
         },
         "bundledComponents": [],
@@ -960,75 +1010,25 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.26",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261009-013931-866f23ea/livesplit-custom-core-LiveSplit-Custom-Core-1.0.26.zip",
-        "fileName": "LiveSplit-Custom-Core-1.0.26.zip",
-        "sha256": "40531FA69423F6E8F2E6CDBED728FF6F92F5DD100A1F884A116C866459B48203",
-        "sizeBytes": 5936107,
+        "version": "1.0.28",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261010-013611-345fc187/livesplit-custom-core-LiveSplit-Custom-Core-1.0.28.zip",
+        "fileName": "LiveSplit-Custom-Core-1.0.28.zip",
+        "sha256": "664665F90C37FB0D205F0BAB358CA0F01629C916681B3AAD1B0505E9F0059DD4",
+        "sizeBytes": 5939962,
         "notes": "",
-        "publishedAt": "2026-10-09T01:39:31.2874689+00:00",
+        "publishedAt": "2026-10-10T01:36:11.5203345+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "",
-        "versionLabel": "1.0.26",
+        "versionLabel": "1.0.28",
         "summary": "",
         "features": [],
         "setup": [],
         "accent": "#CB5A36",
         "mark": "LS"
-      }
-    },
-    {
-      "id": "as64-plus-plus",
-      "name": "AS64\u002B\u002B",
-      "description": "Automatically split Super Mario 64 runs from captured gameplay.",
-      "kind": "application",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": null,
-        "format": "zip",
-        "entryPoint": "AutoSplit64Custom.exe",
-        "preservePaths": [
-          "config.ini",
-          "routes",
-          "templates",
-          ".log"
-        ],
-        "version": "1.0.67",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261009-015101-ff823d0c/as64-plus-plus-as64-plus-plus.zip",
-        "fileName": "as64-plus-plus.zip",
-        "sha256": "635C46977EDDA6E9FF00BD6E3758C190AA603F78DF65458A73C695EB89797056",
-        "sizeBytes": 114373497,
-        "notes": "Detected local build 1.0.67. Review this release before publishing.",
-        "publishedAt": "2026-10-09T01:51:01.5861522+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAnbSURBVFhHzZd5UFRXFodPdyO7LC4oIKuiIsi\u002BNNCyBBFBGte4EygUBdTggqONGaMmLkFFC41aVmYSjREVZ\u002BISUdQRohFRopYmmggRFdxiMJrIaIWlv6ludSpFzZTOH6maX9Wpeu/dW\u002Bd897xzz3tX5NWyEJF\u002BIuIvInYdB/9o\u002BWk0mks5OXm8PVvHqLGT25QqVX7HSX\u002BUeiQlJd/JyJhKaGgoISEhpI6ezIRpBYjIrBdz5onIThEp\u002BS\u002B2XUQCO/h9PZmami5dufIDtClapma8xeqAAEYpnYhJTMWtt9\u002BPIpKgK9BRXltG\u002BbUyjtWWc7TuEOW1Byiv3cex2lJ6DOiBoq9Dm4jEd/T/Sjk7O5etLdrMkoICihfOZ0fYQNYqgggKiWBw8kRDFsp0GxYS3RCFpnEQUQa7G0nEnTA0t0PR3AzBKsAaVbKvYe78jv5fKXNz86Ki9ZtJHBRDhM8AQqys0UgPYoak4uYZ2CwiebpNC9HcjSaiIYrIexoifooi6sdIou\u002BqiW0IMwKYDH19gM4i0uV390FxCcktARHJlG8q5ry9O\u002BFmLkSnZhkcLhKR9IKtOiLvalDfCSfkZjg\u002Bs3xxfdsd9Q010XfDsQrqjEmy36sBFArFyHGRoT8lKcyfioj2d0OL7ey7kpaWxvTMTHIH9mOqvRlqM9VVlcipMQtHEnw/gpAHYfQqcOXc2iVceGssvhG2qBvUWAXbYpL06gw4zo2Pa30ysA/jTK1RKlW7RSTKz8/v3K5du2iuOUv7sgL0fbqi7ypgJ\u002Bg7Cz9bCZ\u002BYCn4DLXH5sydFH65jTISao\u002BZWrFL40HdzX6zC7FC\u002BRg30Gq6waJvs5MyGTw8RFDmUDRs20FJTTduMTC53VVFkKUyzMSetRzem21pRbK3kGxslWAu/WQlrBvRjavZMtuw/j5\u002BNO\u002BE9uxP2bQhWajtE6/1KAIPGO7r2/jUqYTiVx4/TPieHSzbCxO5dyErPZsWSIg7vr6Cxvolbdfc5uPcImWk5jHRxpk4TSPvSheww605wvyi6hXjh9Vkw0fejsPS3QQY6GABOi8jWF7b5hb37oss\u002Bl1Kp3HLixAnasjPYaSlMSh7BqSNVPGr6hcrKSvz9/UlNGczevaWcO3eOXbt2U/tdPRnpmRzXDqHVXsV6pTcmCf3xq0gk9k4Mo0\u002BNZufZHRw8u4/jZ8s4UP13jlQfZOqsNCwT3BCl4uuX8T1zc3N/a99XyiGPnkyZNJVrl\u002BrYuHEj7u7ujB49muozlRzZ6ouluYpevXrx9OlT9Ho9DQ0N5ObkcHFkIg9suzJO0RuzOXFo6hOIbowmtjGGoXcGk9I4mIRbsUxoGEmfd1xRzvZDTJRNxuj29vZbH1ef5kFPUxKD1Wxa/xdaW1qpq6tj5syZrF\u002B/Hn3jUkpWCuUbFaQMCaelpcUIYIA0QEzJSOdZpDeVnfzp7uaMw04t8Y2xxDVqiH1ptwYRdzMcj0W9MJnr/28Ap7y8PH3bhBRmWpvy\u002BWdlHC47Ykzz9u3bycnJYcH8HDhrwqmSSBbMTWPrYktGjRrF0qVLqa6uprW1lYqKCraN0nLPthsZ0guZEY9fdQKxjVFE39IQc0NDTL2G6PpQPN5xxmS2rwHggQEg7/IXB2h2UDA\u002Bfhj13zeg0\u002BmYMmUKX\u002BzfySdb38PHx5u2GmHJLAdj\u002Bhu\u002BVKO/t4abF9fyTnx/kuPjKCkpISs9nSe9HSiRMBQJA7D\u002BKIU3DCu/EUVMnYbYOg3RdWF4LuqFcqbPcwALC4vDT7cWU9JZwQrdCt5KS2fFihXo66aiv2BN3kQxVDHPzgjzM55fXz8gcE7grKAfI4xwtaf\u002B8i1yc3N5/GYcFYooHD2ckMLh\u002BNcMJu5WBLF1EcRfDSP\u002BuwD6LHRCNcMI0CSBQYGN7bocllkrKf2olMePHxvT23w\u002B1RhkT6Hg7ixUbxd2Fgo\u002BvYWWKoFqQb9c\u002BNpfGBGXyJWaH1i8eDH3dVlUmoQTbNsDWZWK7WfDiL4RScIP4STWhpLwfSB9/uSE1TxjEd4XbUrKk7bo/iy0VnJkz2FjYVVVVTFpwhharoyDGuHRSUGlFLzchJbzCuMz/UbhaoCQHBjIsX2nudvw03OAJdlUdBpEvJUjslKLFKfgef4Ngmo1BF6LxfvSIOxnuOFQEIjCRHlbhiQkPNYHOPKupbBj804KCwt59uwZp06dQqdbiP4bX5oqBEuFkkldXHl88nn69QuEbBclX\u002Bz\u002BkqNlJ6mpqXn\u002BCjK0nJIYQm26IytTkXVaTHYl07l8MFZlQ\u002BhUGo\u002BM70Of\u002BUEoTBS3xdHR8bvW8H58bCWs1BVy8cJF2tvbjbuguLgY/UU39DXC3PFKpkdb0XpG4IygzxWKvYUt60t49PNj427InZbFw/6eXJIwXN0dkSVDkfnxSF4UMluNzFIjuaGI2gWVucpQT2tFpVL99d7Y4fzaWZg4ZDi/PnrCvXv3KC0tperEHqgS9OsEfYZwfZLQPk/QzxH08cLnAYIu713uNz40dsttM7L4prMnVRKMMtYLceuC\u002BDoaAlWJyKYOlvayC8ZvSE6kPTuT6TExHNpzhPz8fA4ePMimSWr\u002BmSwc9BOSejvx5vAJaN268KmP0KgRVvcVVi0qpO7bG2RnZ9OUGssRhZol4oZkaRAXOxTDfF75MbL08XC9\u002BexkBU3795PoNYDrV24YO112dg7xcUnMmaHjbOVVGuof0Hj9IatXbkSb9CZ50/M5XX6BBfmLODYrkzPWAzgn4bg69kDeHYbC1Z5Oya8GMCjjQxcvfhs9kivONiQNDOB24z2Kior49vI1mn78hYqKSm7fvm3cJWvWrOHkl1/xy8/NLH9/OXvy3\u002BYHJzeOSxjvGVY/WY0sT0Fc7DEdNvC1ACysRHnyQnAc7R6dudNFmODa09iKm5ubjUG3bNlCbW2t8frKlSts27aN6VlZnJiVyVVHDw6KmsMSgFmQB7IsBflAi8K9C6ba1wMwyMZLTK\u002BdNvWkzq4nz3qq2N1VwUQXR6akZxj3\u002BLJly5g3bx7TsrJYPfQNHo5I5CtLL/ZLCMclAAePnsifhyLvD0M2alF42WOROuC1AQxychbT8x/LAPbJIKosvLlu70CTjxv1saFcT4nhgTaeq56\u002BVJp7s0ciqZBB7BRvuvZ1RAoSkBXJyOphyLYklH3t6TL29TPwUjYqkb2Z0l2/TwI5KjGUStwLi2WPxPI3iaFSYviHBDO5kxPKFG9j2zX0flk3EtkyGikZiZlPN/okuhsA0jsGeR0FKkW2J4ldW764Uij92Sy\u002BLJP\u002B5Is70WJnOPHcFldbJMQZCXZFgt2QcHdE7Y5o3BFrM72IrOro\u002BH\u002BVrYiMepFGw3lg9otfd8M5wiDDidlVRLz\u002Bg/Xo4Ov/T/8Ck0HoPhrxXdQAAAAASUVORK5CYII=",
-        "category": "SM64 timing \u0026 capture",
-        "shortName": "AS64\u002B\u002B",
-        "versionLabel": "1.0.67",
-        "summary": "A customized AutoSplit64 fork that watches console gameplay and controls LiveSplit, with route editing, star detection and reset template profiles.",
-        "features": [
-          "Automatic splits, star counting and console reset detection.",
-          "OBS frame-grabber or window capture input.",
-          "Custom routes, LiveSplit split-file conversion and reset profiles."
-        ],
-        "setup": [
-          "Requires Windows 10\u002B, LiveSplit 1.8.29\u002B, and a capture feed. OBS integration requires OBS 30\u002B.",
-          "Set LiveSplit to start at 1.36 seconds, configure capture, choose or import a route, then generate reset templates.",
-          "Access capture and route controls from the AS64\u002B\u002B right-click menu.",
-          "For OBS integration, install the AS64\u002B frame-grabber plugin separately. This release folder does not include its DLL. Window capture is also available.",
-          "Routes, config.ini and generated templates are kept during launcher updates."
-        ],
-        "accent": "#CB5A36",
-        "mark": "AS"
       }
     }
   ]
