@@ -775,6 +775,57 @@
       }
     },
     {
+      "id": "livesplit-custom-core",
+      "name": "LiveSplit Core",
+      "description": "Updates only the listed LiveSplit files; preserves your layouts, splits and settings.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "core",
+        "fileInventory": {
+          "LiveSplit.Core.dll": "D84C84B630E90EF013F520463F9ED23D6E6204A30582482585FC42CF31EED130",
+          "LiveSplit.LayerStore.dll": "DE1304B0B05A8C7302AFCF2B7DAD9DE8A52E32D980B7C49FD2547E898A7C155F",
+          "LiveSplit.LayoutBrowser.dll": "27DF668FC5227C2AD112AA2AD95F9B0426434A989DEC4479E5FDFAB7E5F16454",
+          "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
+          "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
+          "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
+          "LiveSplit.Routes.dll": "5F711FE3456BBF56D744F689891680B81C1FF88275B5631A44E6B2F974582A01",
+          "LiveSplit.View.dll": "F4E48E3965C097772342B2064773A9ADCC13ABB93A4CA52855DBB5D59F00E904"
+        },
+        "bundledComponents": [],
+        "practice": null,
+        "format": "liveSplitOverlay",
+        "entryPoint": "",
+        "preservePaths": [
+          "settings.cfg",
+          "Splits",
+          "Layouts",
+          "Backups",
+          "Components/ACT.Settings.xml",
+          "LiveSplit.AutoSplitters.xml"
+        ],
+        "version": "1.0.40",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-161329-bba74788/livesplit-custom-core-LiveSplit-Custom-Core-1.0.40.zip",
+        "fileName": "LiveSplit-Custom-Core-1.0.40.zip",
+        "sha256": "45D948AD514E55FDE3B9E563FCDEC1851AAEF6DB038C7D54D495CBCCDB5AF9AA",
+        "sizeBytes": 5951006,
+        "notes": "",
+        "publishedAt": "2026-10-13T16:13:29.9500893+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "",
+        "versionLabel": "1.0.40",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "LS"
+      }
+    },
+    {
       "id": "livesplit-custom",
       "name": "LiveSplit Custom",
       "description": "LiveSplit with Rynnoo\u0027s core fixes and all its bundled components.",
@@ -794,7 +845,7 @@
           "Components/LiveSplit.AutoSplittingRuntime.dll": "6AF8294FEC1A2FC8C6F97CC12B7AA249869492EE85D78A8305FFAC4961A4556C",
           "Components/LiveSplit.BestPace.dll": "93086C79A346FA018359E1A590611C92C63DC248B8376581CED07461B7F10E14",
           "Components/LiveSplit.BetterSubsplitLabels.dll": "4EADA703CA0BB4AA9DF41474D00C26821FCF8F9074DF3E5757E6E4F31C0D698D",
-          "Components/LiveSplit.BetterSubsplits.dll": "4FAF30BB520E50E5159DC2D07E34BF1B543FB117EAFD6CCF56E955CA2F69A9BC",
+          "Components/LiveSplit.BetterSubsplits.dll": "6D8BEBF063B5CAE42532F0D324E772CF5DA7D28BFCF9AE993E3EF3AF2A74D749",
           "Components/LiveSplit.BlankSpace.dll": "416BD54F578EB3661DF0D91CCFF07638A0EDE55B27AEE822A044EA108E89A36C",
           "Components/LiveSplit.ComparisonTime.dll": "4AFEA3843C4F9DF7235ADFAC8304BE79AC0353067E6C64176FF6759C5D946A52",
           "Components/LiveSplit.Counter.dll": "E4B9872048E7A4C345C3641916A033516CBF21327DDE9B186CAA03BAB188DC04",
@@ -949,20 +1000,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.42",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-161329-bba74788/livesplit-custom-LiveSplit-Custom-1.0.42.zip",
-        "fileName": "LiveSplit-Custom-1.0.42.zip",
-        "sha256": "2A17F3AF9999BDDD12BB8400FAD089E95E18DB12CD98F31ECF2509F6B2D3C4CC",
-        "sizeBytes": 17335599,
+        "version": "1.0.43",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-171008-f13c5639/livesplit-custom-LiveSplit-Custom-1.0.43.zip",
+        "fileName": "LiveSplit-Custom-1.0.43.zip",
+        "sha256": "75B3409330ACF6827E7394A21A9A7CFA96392AFEB68CBD5308C07DCD698714EA",
+        "sizeBytes": 17335656,
         "notes": "Detected local build 1.0.0. Review this release before publishing.",
-        "publishedAt": "2026-10-13T16:13:29.9003873+00:00",
+        "publishedAt": "2026-10-13T17:10:08.7515913+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "LiveSplit Custom",
-        "versionLabel": "1.0.42",
+        "versionLabel": "1.0.43",
         "summary": "Your custom LiveSplit core, with its components included. RPM checks for published updates automatically.",
         "features": [
           "Complete portable LiveSplit installation",
@@ -978,57 +1029,6 @@
       }
     },
     {
-      "id": "livesplit-custom-core",
-      "name": "LiveSplit Core",
-      "description": "Updates only the listed LiveSplit files; preserves your layouts, splits and settings.",
-      "kind": "application",
-      "groupId": null,
-      "release": {
-        "updateKind": "core",
-        "fileInventory": {
-          "LiveSplit.Core.dll": "D84C84B630E90EF013F520463F9ED23D6E6204A30582482585FC42CF31EED130",
-          "LiveSplit.LayerStore.dll": "DE1304B0B05A8C7302AFCF2B7DAD9DE8A52E32D980B7C49FD2547E898A7C155F",
-          "LiveSplit.LayoutBrowser.dll": "27DF668FC5227C2AD112AA2AD95F9B0426434A989DEC4479E5FDFAB7E5F16454",
-          "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
-          "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
-          "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
-          "LiveSplit.Routes.dll": "5F711FE3456BBF56D744F689891680B81C1FF88275B5631A44E6B2F974582A01",
-          "LiveSplit.View.dll": "F4E48E3965C097772342B2064773A9ADCC13ABB93A4CA52855DBB5D59F00E904"
-        },
-        "bundledComponents": [],
-        "practice": null,
-        "format": "liveSplitOverlay",
-        "entryPoint": "",
-        "preservePaths": [
-          "settings.cfg",
-          "Splits",
-          "Layouts",
-          "Backups",
-          "Components/ACT.Settings.xml",
-          "LiveSplit.AutoSplitters.xml"
-        ],
-        "version": "1.0.40",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-161329-bba74788/livesplit-custom-core-LiveSplit-Custom-Core-1.0.40.zip",
-        "fileName": "LiveSplit-Custom-Core-1.0.40.zip",
-        "sha256": "45D948AD514E55FDE3B9E563FCDEC1851AAEF6DB038C7D54D495CBCCDB5AF9AA",
-        "sizeBytes": 5951006,
-        "notes": "",
-        "publishedAt": "2026-10-13T16:13:29.9500893+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "Timing \u0026 splits",
-        "shortName": "",
-        "versionLabel": "1.0.40",
-        "summary": "",
-        "features": [],
-        "setup": [],
-        "accent": "#CB5A36",
-        "mark": "LS"
-      }
-    },
-    {
       "id": "livesplit-bettersubsplits",
       "name": "Better Subsplits",
       "description": "A customized subsplits component for your LiveSplit layout.",
@@ -1037,7 +1037,7 @@
       "release": {
         "updateKind": "component",
         "fileInventory": {
-          "Components/LiveSplit.BetterSubsplits.dll": "4FAF30BB520E50E5159DC2D07E34BF1B543FB117EAFD6CCF56E955CA2F69A9BC"
+          "Components/LiveSplit.BetterSubsplits.dll": "6D8BEBF063B5CAE42532F0D324E772CF5DA7D28BFCF9AE993E3EF3AF2A74D749"
         },
         "bundledComponents": [],
         "practice": null,
@@ -1051,20 +1051,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "0.0.254",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-161329-bba74788/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.254.zip",
-        "fileName": "LiveSplit.BetterSubsplits-0.0.254.zip",
-        "sha256": "CA305F253E2F041FD42355DD2720771CB492FF2A65A803C4B522BF10AFDC784C",
-        "sizeBytes": 151423,
+        "version": "0.0.255",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-171008-f13c5639/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.255.zip",
+        "fileName": "LiveSplit.BetterSubsplits-0.0.255.zip",
+        "sha256": "5289FE5D1F932C650B739F410A016688C10EA0FAE44917CAC1DBE9C43C0CF7DE",
+        "sizeBytes": 151480,
         "notes": "Detected local build 0.0.208. Review this release before publishing.",
-        "publishedAt": "2026-10-13T16:13:29.9651735+00:00",
+        "publishedAt": "2026-10-13T17:10:08.7657271+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "Better Subsplits",
-        "versionLabel": "0.0.254",
+        "versionLabel": "0.0.255",
         "summary": "Displays your split list using the Better Subsplits component.",
         "features": [],
         "setup": [
