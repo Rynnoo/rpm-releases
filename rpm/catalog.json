@@ -635,52 +635,6 @@
       }
     },
     {
-      "id": "usamune-practice",
-      "name": "Usamune Practice",
-      "description": "SM64 practice ROM patch",
-      "kind": "practiceRom",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": {
-          "patch_format": "BPS1",
-          "source_byte_order": "z64",
-          "version": 78,
-          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
-          "output_sha256": "c1fde9b103f55c7e965493a2aeb84eb4c381a238d3abcd91cd89b900e5c18510",
-          "output_filename": "SM64_USAMUNE_Practice.z64",
-          "patch_file": "Usamune_Practice_v78_JP.bps",
-          "save_file": "SM64_USAMUNE_Practice.sav",
-          "save_size_bytes": 131072,
-          "semanticVersion": "0.0.78"
-        },
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.78",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261011-140429-86ea097d/usamune-practice-Usamune_Practice_v78_JP.bps",
-        "fileName": "Usamune_Practice_v78_JP.bps",
-        "sha256": "CA566D7AA5E0463227334C973DBC1827932A35812242580FCD9F8C6D7DA8E5A8",
-        "sizeBytes": 218912,
-        "notes": "",
-        "publishedAt": "2026-10-11T14:04:29.2839329+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "SM64 / Practice ROM",
-        "shortName": "Usamune Practice",
-        "versionLabel": "v78",
-        "summary": "",
-        "features": [],
-        "setup": [],
-        "accent": "#CB5A36",
-        "mark": "UP"
-      }
-    },
-    {
       "id": "livesplit-xcam",
       "name": "livesplit-xcam",
       "description": "Updates only the listed LiveSplit files; preserves your layouts, splits and settings.",
@@ -1074,6 +1028,52 @@
         ],
         "accent": "#66725B",
         "mark": "BS"
+      }
+    },
+    {
+      "id": "usamune-practice",
+      "name": "Usamune Practice",
+      "description": "SM64 practice ROM patch",
+      "kind": "practiceRom",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": {
+          "patch_format": "BPS1",
+          "source_byte_order": "z64",
+          "version": 79,
+          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
+          "output_sha256": "40f234fde3b178f52c3ebd039b56d9611038f883cbb87e9ef4fde5767234f5e4",
+          "output_filename": "SM64_USAMUNE_Practice.z64",
+          "patch_file": "Usamune_Practice_v79_JP.bps",
+          "save_file": "SM64_USAMUNE_Practice.sav",
+          "save_size_bytes": 131072,
+          "semanticVersion": "0.0.79"
+        },
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.79",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-225528-c2f2ff00/usamune-practice-Usamune_Practice_v79_JP.bps",
+        "fileName": "Usamune_Practice_v79_JP.bps",
+        "sha256": "C28352724D4ECBAE656233D394774F4F4F3FCEACD12D8E906CC7B69963BE70C0",
+        "sizeBytes": 221669,
+        "notes": "",
+        "publishedAt": "2026-10-13T22:55:28.0218705+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "SM64 / Practice ROM",
+        "shortName": "Usamune Practice",
+        "versionLabel": "v79",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "UP"
       }
     }
   ]
