@@ -729,22 +729,15 @@
       }
     },
     {
-      "id": "livesplit-custom-core",
-      "name": "LiveSplit Core",
-      "description": "Updates only the listed LiveSplit files; preserves your layouts, splits and settings.",
-      "kind": "application",
-      "groupId": null,
+      "id": "livesplit-bettersubsplits",
+      "name": "Better Subsplits",
+      "description": "A customized subsplits component for your LiveSplit layout.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
       "release": {
-        "updateKind": "core",
+        "updateKind": "component",
         "fileInventory": {
-          "LiveSplit.Core.dll": "D84C84B630E90EF013F520463F9ED23D6E6204A30582482585FC42CF31EED130",
-          "LiveSplit.LayerStore.dll": "DE1304B0B05A8C7302AFCF2B7DAD9DE8A52E32D980B7C49FD2547E898A7C155F",
-          "LiveSplit.LayoutBrowser.dll": "27DF668FC5227C2AD112AA2AD95F9B0426434A989DEC4479E5FDFAB7E5F16454",
-          "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
-          "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
-          "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
-          "LiveSplit.Routes.dll": "5F711FE3456BBF56D744F689891680B81C1FF88275B5631A44E6B2F974582A01",
-          "LiveSplit.View.dll": "F4E48E3965C097772342B2064773A9ADCC13ABB93A4CA52855DBB5D59F00E904"
+          "Components/LiveSplit.BetterSubsplits.dll": "6D8BEBF063B5CAE42532F0D324E772CF5DA7D28BFCF9AE993E3EF3AF2A74D749"
         },
         "bundledComponents": [],
         "practice": null,
@@ -758,25 +751,75 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.40",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-161329-bba74788/livesplit-custom-core-LiveSplit-Custom-Core-1.0.40.zip",
-        "fileName": "LiveSplit-Custom-Core-1.0.40.zip",
-        "sha256": "45D948AD514E55FDE3B9E563FCDEC1851AAEF6DB038C7D54D495CBCCDB5AF9AA",
-        "sizeBytes": 5951006,
-        "notes": "",
-        "publishedAt": "2026-10-13T16:13:29.9500893+00:00",
+        "version": "0.0.255",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-171008-f13c5639/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.255.zip",
+        "fileName": "LiveSplit.BetterSubsplits-0.0.255.zip",
+        "sha256": "5289FE5D1F932C650B739F410A016688C10EA0FAE44917CAC1DBE9C43C0CF7DE",
+        "sizeBytes": 151480,
+        "notes": "Detected local build 0.0.208. Review this release before publishing.",
+        "publishedAt": "2026-10-13T17:10:08.7657271+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
-        "shortName": "",
-        "versionLabel": "1.0.40",
+        "shortName": "Better Subsplits",
+        "versionLabel": "0.0.255",
+        "summary": "Displays your split list using the Better Subsplits component.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "BS"
+      }
+    },
+    {
+      "id": "usamune-practice",
+      "name": "Usamune Practice",
+      "description": "SM64 practice ROM patch",
+      "kind": "practiceRom",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": {
+          "patch_format": "BPS1",
+          "source_byte_order": "z64",
+          "version": 82,
+          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
+          "output_sha256": "aec1e20ab0a466dbc6a3b60b1a4287904805d0f2f58a1a986cfacfff8a38bfb4",
+          "output_filename": "SM64_USAMUNE_Practice.z64",
+          "patch_file": "Usamune_Practice_v82_JP.bps",
+          "save_file": "SM64_USAMUNE_Practice.sav",
+          "save_size_bytes": 131072,
+          "semanticVersion": "0.0.82"
+        },
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.82",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261014-205614-f6ca5410/usamune-practice-Usamune_Practice_v82_JP.bps",
+        "fileName": "Usamune_Practice_v82_JP.bps",
+        "sha256": "E4EEBF69C66B95A28E0E9282C9A1007E620BF3F33F3080B5927118C484CB6885",
+        "sizeBytes": 228374,
+        "notes": "",
+        "publishedAt": "2026-10-14T20:56:14.1012271+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "SM64 / Practice ROM",
+        "shortName": "Usamune Practice",
+        "versionLabel": "v82",
         "summary": "",
         "features": [],
         "setup": [],
         "accent": "#CB5A36",
-        "mark": "LS"
+        "mark": "UP"
       }
     },
     {
@@ -860,13 +903,13 @@
           "LiveSplit.Core.dll": "D84C84B630E90EF013F520463F9ED23D6E6204A30582482585FC42CF31EED130",
           "LiveSplit.Core.dll.config": "F309AE592EB2E040D704CB8D3F6274EB6AC00550790351838D41ACEC089E32A4",
           "LiveSplit.LayerStore.dll": "DE1304B0B05A8C7302AFCF2B7DAD9DE8A52E32D980B7C49FD2547E898A7C155F",
-          "LiveSplit.LayoutBrowser.dll": "27DF668FC5227C2AD112AA2AD95F9B0426434A989DEC4479E5FDFAB7E5F16454",
+          "LiveSplit.LayoutBrowser.dll": "8AEB9BA4F96D6F1E476C43746CA160C6B378A0C7E918EA70FE19ACD0E5FAED41",
           "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
           "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
           "LiveSplit.Register.exe": "6638E918444C3865BA5B547AD21B6B8EDDA3825C2A756ED0C1D8D7F740E3CBA8",
           "LiveSplit.Register.exe.config": "B89E78F3E43C48D7AD1CC6F4E713B6E4F2A8AB5B9A8B65F70F4E6AD62C8883C3",
           "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
-          "LiveSplit.Routes.dll": "5F711FE3456BBF56D744F689891680B81C1FF88275B5631A44E6B2F974582A01",
+          "LiveSplit.Routes.dll": "D3A2BD239CF889A616AA9E0533DE3FE570E95E840A6ADB6D1CD7CAD4B2BEC26B",
           "LiveSplit.Subsplits.dll": "9E37055CA4A5D647D5B4455B0B3852BF4CBF6CD0FB1B488CE1A97DB3359D6C47",
           "LiveSplit.View.dll": "F4E48E3965C097772342B2064773A9ADCC13ABB93A4CA52855DBB5D59F00E904",
           "LiveSplit.exe": "4F9167D81B30EE87AFE12F87DDE858E129703712CD2F94B3B451DFB673B0F6C1",
@@ -954,20 +997,20 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "1.0.43",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-171008-f13c5639/livesplit-custom-LiveSplit-Custom-1.0.43.zip",
-        "fileName": "LiveSplit-Custom-1.0.43.zip",
-        "sha256": "75B3409330ACF6827E7394A21A9A7CFA96392AFEB68CBD5308C07DCD698714EA",
-        "sizeBytes": 17335656,
+        "version": "1.0.44",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261014-205614-f6ca5410/livesplit-custom-LiveSplit-Custom-1.0.44.zip",
+        "fileName": "LiveSplit-Custom-1.0.44.zip",
+        "sha256": "9DB71EFB884C5A11FE30C2A6E994374F0AF9EA2851539A8643432868F006EC8C",
+        "sizeBytes": 17336226,
         "notes": "Detected local build 1.0.0. Review this release before publishing.",
-        "publishedAt": "2026-10-13T17:10:08.7515913+00:00",
+        "publishedAt": "2026-10-14T20:56:14.295102+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
         "shortName": "LiveSplit Custom",
-        "versionLabel": "1.0.43",
+        "versionLabel": "1.0.44",
         "summary": "Your custom LiveSplit core, with its components included. RPM checks for published updates automatically.",
         "features": [
           "Complete portable LiveSplit installation",
@@ -983,15 +1026,22 @@
       }
     },
     {
-      "id": "livesplit-bettersubsplits",
-      "name": "Better Subsplits",
-      "description": "A customized subsplits component for your LiveSplit layout.",
-      "kind": "liveSplitPlugin",
-      "groupId": "livesplit",
+      "id": "livesplit-custom-core",
+      "name": "LiveSplit Core",
+      "description": "Updates only the listed LiveSplit files; preserves your layouts, splits and settings.",
+      "kind": "application",
+      "groupId": null,
       "release": {
-        "updateKind": "component",
+        "updateKind": "core",
         "fileInventory": {
-          "Components/LiveSplit.BetterSubsplits.dll": "6D8BEBF063B5CAE42532F0D324E772CF5DA7D28BFCF9AE993E3EF3AF2A74D749"
+          "LiveSplit.Core.dll": "D84C84B630E90EF013F520463F9ED23D6E6204A30582482585FC42CF31EED130",
+          "LiveSplit.LayerStore.dll": "DE1304B0B05A8C7302AFCF2B7DAD9DE8A52E32D980B7C49FD2547E898A7C155F",
+          "LiveSplit.LayoutBrowser.dll": "8AEB9BA4F96D6F1E476C43746CA160C6B378A0C7E918EA70FE19ACD0E5FAED41",
+          "LiveSplit.LayoutPreview.exe": "486E040509F979B10EC414B00403E7FA9D28E88519E7268CFDAFB256B5CC8BFC",
+          "LiveSplit.LayoutPreview.exe.config": "17D0049325DFC3D19B9224C7F03682CC23FD6A33ABFB88040921778A0FC12792",
+          "LiveSplit.RenderFix.dll": "5AEEC00C8566787055547752ACA4242B39FA4A9E41DCE1418FF29C39BBB5130E",
+          "LiveSplit.Routes.dll": "D3A2BD239CF889A616AA9E0533DE3FE570E95E840A6ADB6D1CD7CAD4B2BEC26B",
+          "LiveSplit.View.dll": "F4E48E3965C097772342B2064773A9ADCC13ABB93A4CA52855DBB5D59F00E904"
         },
         "bundledComponents": [],
         "practice": null,
@@ -1005,75 +1055,25 @@
           "Components/ACT.Settings.xml",
           "LiveSplit.AutoSplitters.xml"
         ],
-        "version": "0.0.255",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-171008-f13c5639/livesplit-bettersubsplits-LiveSplit.BetterSubsplits-0.0.255.zip",
-        "fileName": "LiveSplit.BetterSubsplits-0.0.255.zip",
-        "sha256": "5289FE5D1F932C650B739F410A016688C10EA0FAE44917CAC1DBE9C43C0CF7DE",
-        "sizeBytes": 151480,
-        "notes": "Detected local build 0.0.208. Review this release before publishing.",
-        "publishedAt": "2026-10-13T17:10:08.7657271+00:00",
+        "version": "1.0.41",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261014-205614-f6ca5410/livesplit-custom-core-LiveSplit-Custom-Core-1.0.41.zip",
+        "fileName": "LiveSplit-Custom-Core-1.0.41.zip",
+        "sha256": "ED683BA7BDA543A537A268A43035DF83CF7A5FB40CDA82097B1A7CDC1E99AF20",
+        "sizeBytes": 5951576,
+        "notes": "",
+        "publishedAt": "2026-10-14T20:56:14.3606708+00:00",
         "companionInstaller": null
       },
       "details": {
         "iconPng": "",
         "category": "Timing \u0026 splits",
-        "shortName": "Better Subsplits",
-        "versionLabel": "0.0.255",
-        "summary": "Displays your split list using the Better Subsplits component.",
-        "features": [],
-        "setup": [
-          "Close LiveSplit before installing or updating this component.",
-          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
-          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
-        ],
-        "accent": "#66725B",
-        "mark": "BS"
-      }
-    },
-    {
-      "id": "usamune-practice",
-      "name": "Usamune Practice",
-      "description": "SM64 practice ROM patch",
-      "kind": "practiceRom",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": {
-          "patch_format": "BPS1",
-          "source_byte_order": "z64",
-          "version": 79,
-          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
-          "output_sha256": "40f234fde3b178f52c3ebd039b56d9611038f883cbb87e9ef4fde5767234f5e4",
-          "output_filename": "SM64_USAMUNE_Practice.z64",
-          "patch_file": "Usamune_Practice_v79_JP.bps",
-          "save_file": "SM64_USAMUNE_Practice.sav",
-          "save_size_bytes": 131072,
-          "semanticVersion": "0.0.79"
-        },
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.79",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261013-225528-c2f2ff00/usamune-practice-Usamune_Practice_v79_JP.bps",
-        "fileName": "Usamune_Practice_v79_JP.bps",
-        "sha256": "C28352724D4ECBAE656233D394774F4F4F3FCEACD12D8E906CC7B69963BE70C0",
-        "sizeBytes": 221669,
-        "notes": "",
-        "publishedAt": "2026-10-13T22:55:28.0218705+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "SM64 / Practice ROM",
-        "shortName": "Usamune Practice",
-        "versionLabel": "v79",
+        "shortName": "",
+        "versionLabel": "1.0.41",
         "summary": "",
         "features": [],
         "setup": [],
         "accent": "#CB5A36",
-        "mark": "UP"
+        "mark": "LS"
       }
     }
   ]
