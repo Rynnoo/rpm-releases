@@ -679,52 +679,6 @@
       }
     },
     {
-      "id": "usamune-practice",
-      "name": "Usamune Practice",
-      "description": "SM64 practice ROM patch",
-      "kind": "practiceRom",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": {
-          "patch_format": "BPS1",
-          "source_byte_order": "z64",
-          "version": 87,
-          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
-          "output_sha256": "6571ea2c6821ce2c47e9832dd5c38d8fcc8104d55bbe7371705e6e74bfa5c2e9",
-          "output_filename": "SM64_USAMUNE_Practice.z64",
-          "patch_file": "Usamune_Practice_v87_JP.bps",
-          "save_file": "SM64_USAMUNE_Practice.sav",
-          "save_size_bytes": 131072,
-          "semanticVersion": "0.0.87"
-        },
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.87",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261017-000517-c86d4849/usamune-practice-Usamune_Practice_v87_JP.bps",
-        "fileName": "Usamune_Practice_v87_JP.bps",
-        "sha256": "4025FD6E7B0C8FFABDBF062CE8B178BBA439C1DB6ECEF0C5DA4FB68343498A34",
-        "sizeBytes": 241067,
-        "notes": "",
-        "publishedAt": "2026-10-17T00:05:17.4678032+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "SM64 / Practice ROM",
-        "shortName": "Usamune Practice",
-        "versionLabel": "v87",
-        "summary": "",
-        "features": [],
-        "setup": [],
-        "accent": "#CB5A36",
-        "mark": "UP"
-      }
-    },
-    {
       "id": "as64-plus-plus",
       "name": "AS64\u002B\u002B",
       "description": "Automatically split Super Mario 64 runs from captured gameplay.",
@@ -1074,6 +1028,52 @@
         ],
         "accent": "#66725B",
         "mark": "BS"
+      }
+    },
+    {
+      "id": "usamune-practice",
+      "name": "Usamune Practice",
+      "description": "SM64 practice ROM patch",
+      "kind": "practiceRom",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": {
+          "patch_format": "BPS1",
+          "source_byte_order": "z64",
+          "version": 88,
+          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
+          "output_sha256": "1315acdb94e3cea3749de253d4a9dc9c502b6ae71630c90b49c43efecc1a204d",
+          "output_filename": "SM64_USAMUNE_Practice.z64",
+          "patch_file": "Usamune_Practice_v88_JP.bps",
+          "save_file": "SM64_USAMUNE_Practice.sav",
+          "save_size_bytes": 131072,
+          "semanticVersion": "0.0.88"
+        },
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.88",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261018-054521-6f3f24ba/usamune-practice-Usamune_Practice_v88_JP.bps",
+        "fileName": "Usamune_Practice_v88_JP.bps",
+        "sha256": "FE7C42887BA5BF319019A4BA7E99B9BFDBBE0C5A6472AE82AF3931B90966079B",
+        "sizeBytes": 247970,
+        "notes": "",
+        "publishedAt": "2026-10-18T05:45:21.1514904+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "SM64 / Practice ROM",
+        "shortName": "Usamune Practice",
+        "versionLabel": "v88",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "UP"
       }
     }
   ]
