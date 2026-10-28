@@ -56,49 +56,6 @@
       }
     },
     {
-      "id": "nsmbw-retimer",
-      "name": "NSMBW Retimer",
-      "description": "Review run footage, mark loads and compare against a TAS reference.",
-      "kind": "application",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": null,
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "1.0.0",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/raip-20260913-180515-5eee4af8/nsmbw-retimer-NSMBW.Retimer.exe",
-        "fileName": "NSMBW Retimer.exe",
-        "sha256": "1F610D98647FF70677B169FBA46585DDBFB346C7F7760CC5BFFB50971B697E2C",
-        "sizeBytes": 378205200,
-        "notes": "Normalized release 1.0, including the TAS overlay offset fix. Uses the exact 1.0/standalone folder requested.",
-        "publishedAt": "2026-09-13T14:05:14.0637732-04:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "Timing \u0026 analysis",
-        "shortName": "NSMBW Retimer",
-        "versionLabel": "1.0",
-        "summary": "Your dedicated retiming desktop app, using the normalized 1.0 release you specified.",
-        "features": [
-          "Open video and mark load start/end points with frame controls.",
-          "Review run summaries and save retime files.",
-          "Load TAS video or .lds references and work with the TAS overlay."
-        ],
-        "setup": [
-          "This uses the self-contained standalone EXE from artifacts/1.0.",
-          "Open a video or an existing retime file from the File menu.",
-          "Older Fixed, Updated and 1.0.1 artifacts are intentionally not selected."
-        ],
-        "accent": "#9D7043",
-        "mark": "RT"
-      }
-    },
-    {
       "id": "sm64-practice",
       "name": "SM64 Practice",
       "description": "Build practice goals and track star PBs in a desktop overlay.",
@@ -1074,6 +1031,49 @@
         "setup": [],
         "accent": "#CB5A36",
         "mark": "UP"
+      }
+    },
+    {
+      "id": "nsmbw-retimer",
+      "name": "NSMBW Retimer",
+      "description": "Review run footage, mark loads and compare against a TAS reference.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": null,
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "1.1.0",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261028-232443-0ba7fc62/nsmbw-retimer-NSMBW.Retimer.exe",
+        "fileName": "NSMBW Retimer.exe",
+        "sha256": "DA7D86DD6A40B18B9ED8E72BE3E28E9D842CB2F4DCF1773B2E1A102D32612847",
+        "sizeBytes": 378218556,
+        "notes": "Detected local build 1.1.0. Review this release before publishing.",
+        "publishedAt": "2026-10-28T23:24:43.6003556+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 analysis",
+        "shortName": "NSMBW Retimer",
+        "versionLabel": "1.1.0",
+        "summary": "Your dedicated retiming desktop app, using the normalized 1.0 release you specified.",
+        "features": [
+          "Open video and mark load start/end points with frame controls.",
+          "Review run summaries and save retime files.",
+          "Load TAS video or .lds references and work with the TAS overlay."
+        ],
+        "setup": [
+          "This uses the self-contained standalone EXE from artifacts/1.0.",
+          "Open a video or an existing retime file from the File menu.",
+          "Older Fixed, Updated and 1.0.1 artifacts are intentionally not selected."
+        ],
+        "accent": "#9D7043",
+        "mark": "RT"
       }
     }
   ]
