@@ -1075,6 +1075,48 @@
         "accent": "#CB5A36",
         "mark": "LS"
       }
+    },
+    {
+      "id": "speedrun-time-calculator",
+      "name": "Speedrun Time Calculator",
+      "description": "Add up run times and build segment totals with saved presets.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": null,
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "1.0.0",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261115-181550-7f5a1459/speedrun-time-calculator-SpeedrunTimeCalc.exe",
+        "fileName": "SpeedrunTimeCalc.exe",
+        "sha256": "285EEE556C8E1DB27A791DA8EF71ABF189371A25B6135D641E28E968B608BBEA",
+        "sizeBytes": 65872549,
+        "notes": "First release.",
+        "publishedAt": "2026-11-15T18:15:50.1027741+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVmSURBVHhe7ZsxiCRFFIY3NDQ0NDQ0NNNQduY4MdFEFCOR7VnhQE8QvEADDVwU5IILvERFBBUDL1BYBGEvODm4QAWRDRRGAz10e2Z2b9cd\u002BWa2j72/X/W8qq7ec4794Ydlpqq7/7/qvapX07uycopTuPHos9P7eoOdp/uD8UZ/MNo84vQu8\u002Bg5xhtn1srnzq7fvF\u002BfuzVW18uH\u002B8XoY\u002BPm/1deOVOMHlEd0cDNXlFeNG6wFOwNys9XXywfUF0unF2fPNgvRtf1okvHotxmBqu\u002BRszFl9u1iy0ty4k7JJj298TI1zlkYFVvDV0nu40P96YfXbllku\u002BePFfvk4u9Qbmleu/ALNsbHXMQYb/\u002B/u90Ecrx4fSZ18a1/tm4NnpCdd8GWbPWIRPf/2RPtQZx\u002Bctbtf7ZWIyuq\u002B4ZZrGvjTMSUV4QDto/J81VgV2UNsxJpvWe04Nz70xq/XOyV4wuqP7Okx984c3J7YSnqD5//eJurV8H3FT9Kye9r1fo952yKLdV/8pJbnyeemWs\u002BrvN/AZVPzOg1igXmfokwZ\u002B2Fy\u002BDLJVfbO53ngdUfycGvH15d/rHn4eq0Y2//j6cGdfF5kj1ZzXg1fd2p7/8tni0vcAIdol6nzZU/VkMYKS\u002B\u002Bm5fnz8bCCHyh943haq/tQE82I2fD/SZg6DtcXr3CITU4K32\u002BUH1tzLg\u002BQvjhbFOSBDPTQ/PddgyLzKSeoEw0/4xVP3JBiwqcpi2KQ\u002BLUU1GYAKGaT8vVX\u002ByAVs3wg\u002BZo6jBPMRawPjUFUL1JxlgbWkBD/zGpfhRD5GRDq0q335/UGvvoeqPNiBU3PBZjk0Mor\u002B5uj\u002B73rUfDqYvvzuZLYcWUu6n\u002BqMNCC13OdZrK6lWu0PLdGaHXmMRVX\u002BUASQoC5iibWNpiQfMAr6/9Jl9sBIbcqo/ygBGQ8H0bLtJCYkHVZlM0rPyASuGXq\u002BJqj/KAOshGRltF8Mm8RpWjLaC0IgZANXvNoDKzkKbcjZGfEUrIVJ8absQVb/bACsG2exoOy9TxENWCAWfabsQVb/bACv7px5ipoqHVhjEDITqdxtANlbEZmDYRnzVX8H1tF2Iqt9tgJWBUzYioS20RzxkNbCg7UJU/W4DrOQTW5Tw8NaGxiu\u002BYptnUf1uA6zKr6nEDVFnUqx4aMFbHKl\u002BtwFWiZpylo9pFDIkrpT\u002BLLsKijBtF6LqdxtgLT8cYmi7rkneUcTUBKrfbcCnX9eDl4Sm7bqmVYpX9YKHqt9tAAcUChKaN/ZyUXMIiDmAUf1uAxBqndCk7AVSGapG2aZr2xBVv9sASPJSMCInNQusPQSrk7ZrouqPMsDahoK2FaGHodEnN2nbJqr\u002BKAOgFYNsTLwbkRQyw6zfF7lv7OxT/dEGWMkQdBkKVuiBlJmn\u002BqMNgFYsAkapzfmAResUClAApRiu\u002BpMMQGSoosv1ExanPFYFCtqcQKt\u002BDBhqIw8RaRU2gM9JTjFHVcfJ1LYKngoxJ0BK1c8rclvayMvQqlCBfQM7N886Xf0\u002BGJpZFVIPYY44VP2t3xGkoLE2SAqEUU8ggBFGLH8T49bKYiEl6R2n\u002BcZof1Ce14axZIStcjkXMDilclTyLwCqf/6GuNE4lsR7KGO3ASuOJ4Q87K3vPKb6Z8j5ljixHFomY5D683oDh/zrj2qfgReJjQ6tyCpBleaNb9Dlm2K9Yucl1X0Hcs4CJfsGRpMkRuIjGbK7q94S5btc0zzA8OhX6K/981CvGN00Oi89g7GvWC3Kx7XzsnPh1FfM80E50QstI6PFV\u002BC9\u002Bt5g9KNecIk4dE/7JuBgaq1wNzjPYeX5hQkvFuSG2T9SdrhSJHP\u002BTB8QutmFn\u002BIexn\u002B0apuUP1X6EwAAAABJRU5ErkJggg==",
+        "category": "Timing \u0026 analysis",
+        "shortName": "Time Calculator",
+        "versionLabel": "1.0.0",
+        "summary": "A quick calculator for speedrun times and segment totals.",
+        "features": [
+          "Add or subtract times written as 1:23.45, 83.45 or 1h 2m 3s.",
+          "Build named segment lists with running split totals.",
+          "Save presets, restore the Super Mario 64 presets, and copy totals with Ctrl\u002BShift\u002BC."
+        ],
+        "setup": [
+          "Self-contained EXE; no .NET install is required.",
+          "Presets are stored in %APPDATA%\\SpeedrunTimeCalc and are kept across updates."
+        ],
+        "accent": "#CB5A36",
+        "mark": "TC"
+      }
     }
   ]
 }
