@@ -694,49 +694,6 @@
       }
     },
     {
-      "id": "nsmbw-retimer",
-      "name": "NSMBW Retimer",
-      "description": "Review run footage, mark loads and compare against a TAS reference.",
-      "kind": "application",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": null,
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "1.1.0",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261028-232443-0ba7fc62/nsmbw-retimer-NSMBW.Retimer.exe",
-        "fileName": "NSMBW Retimer.exe",
-        "sha256": "DA7D86DD6A40B18B9ED8E72BE3E28E9D842CB2F4DCF1773B2E1A102D32612847",
-        "sizeBytes": 378218556,
-        "notes": "Detected local build 1.1.0. Review this release before publishing.",
-        "publishedAt": "2026-10-28T23:24:43.6003556+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "Timing \u0026 analysis",
-        "shortName": "NSMBW Retimer",
-        "versionLabel": "1.1.0",
-        "summary": "Your dedicated retiming desktop app, using the normalized 1.0 release you specified.",
-        "features": [
-          "Open video and mark load start/end points with frame controls.",
-          "Review run summaries and save retime files.",
-          "Load TAS video or .lds references and work with the TAS overlay."
-        ],
-        "setup": [
-          "This uses the self-contained standalone EXE from artifacts/1.0.",
-          "Open a video or an existing retime file from the File menu.",
-          "Older Fixed, Updated and 1.0.1 artifacts are intentionally not selected."
-        ],
-        "accent": "#9D7043",
-        "mark": "RT"
-      }
-    },
-    {
       "id": "livesplit-custom",
       "name": "LiveSplit Custom",
       "description": "LiveSplit with Rynnoo\u0027s core fixes and all its bundled components.",
@@ -1033,52 +990,6 @@
       }
     },
     {
-      "id": "usamune-practice",
-      "name": "Usamune Practice",
-      "description": "SM64 practice ROM patch",
-      "kind": "practiceRom",
-      "groupId": null,
-      "release": {
-        "updateKind": "",
-        "fileInventory": {},
-        "bundledComponents": [],
-        "practice": {
-          "patch_format": "BPS1",
-          "source_byte_order": "z64",
-          "version": 127,
-          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
-          "output_sha256": "1788504951ce7e180aa38a8fc2703186a81b5d1dfb29a0735497903f146a9f9c",
-          "output_filename": "SM64_USAMUNE_Practice.z64",
-          "patch_file": "Usamune_Practice_v127_JP.bps",
-          "save_file": "SM64_USAMUNE_Practice.sav",
-          "save_size_bytes": 131072,
-          "semanticVersion": "0.0.127"
-        },
-        "format": "singleFile",
-        "entryPoint": "",
-        "preservePaths": [],
-        "version": "0.0.127",
-        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261123-001356-43edd11b/usamune-practice-Usamune_Practice_v127_JP.bps",
-        "fileName": "Usamune_Practice_v127_JP.bps",
-        "sha256": "B0B925F806AFCE770080D268937EB8B8A07466214583DBF9363A3CA7FA8A65BE",
-        "sizeBytes": 357875,
-        "notes": "",
-        "publishedAt": "2026-11-23T00:13:56.8457988+00:00",
-        "companionInstaller": null
-      },
-      "details": {
-        "iconPng": "",
-        "category": "SM64 / Practice ROM",
-        "shortName": "Usamune Practice",
-        "versionLabel": "v127",
-        "summary": "",
-        "features": [],
-        "setup": [],
-        "accent": "#CB5A36",
-        "mark": "UP"
-      }
-    },
-    {
       "id": "scu",
       "name": "SCU",
       "description": "Capture, replay and record your speedruns.",
@@ -1116,6 +1027,95 @@
         ],
         "accent": "#B45132",
         "mark": "SC"
+      }
+    },
+    {
+      "id": "nsmbw-retimer",
+      "name": "NSMBW Retimer",
+      "description": "Review run footage, mark loads and compare against a TAS reference.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": null,
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "1.1.1",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261126-183449-0abda934/nsmbw-retimer-NSMBW.Retimer.exe",
+        "fileName": "NSMBW Retimer.exe",
+        "sha256": "FEBAFEDEBC06C064E3B8343C2BCC86623A79BAFE1C8D3D233E826B9035CCF7BC",
+        "sizeBytes": 378219519,
+        "notes": "Detected local build 1.1.1. Review this release before publishing.",
+        "publishedAt": "2026-11-26T18:34:49.3058099+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 analysis",
+        "shortName": "NSMBW Retimer",
+        "versionLabel": "1.1.1",
+        "summary": "Your dedicated retiming desktop app, using the normalized 1.0 release you specified.",
+        "features": [
+          "Open video and mark load start/end points with frame controls.",
+          "Review run summaries and save retime files.",
+          "Load TAS video or .lds references and work with the TAS overlay."
+        ],
+        "setup": [
+          "This uses the self-contained standalone EXE from artifacts/1.0.",
+          "Open a video or an existing retime file from the File menu.",
+          "Older Fixed, Updated and 1.0.1 artifacts are intentionally not selected."
+        ],
+        "accent": "#9D7043",
+        "mark": "RT"
+      }
+    },
+    {
+      "id": "usamune-practice",
+      "name": "Usamune Practice",
+      "description": "SM64 practice ROM patch",
+      "kind": "practiceRom",
+      "groupId": null,
+      "release": {
+        "updateKind": "",
+        "fileInventory": {},
+        "bundledComponents": [],
+        "practice": {
+          "patch_format": "BPS1",
+          "source_byte_order": "z64",
+          "version": 128,
+          "source_sha256": "9cf7a80db321b07a8d461fe536c02c87b7412433953891cdec9191bfad2db317",
+          "output_sha256": "7c2654ae564bccec1189b6772ce9af71ea15a60f2aa9ed2ecd40121d118b19df",
+          "output_filename": "SM64_USAMUNE_Practice.z64",
+          "patch_file": "Usamune_Practice_v128_JP.bps",
+          "save_file": "SM64_USAMUNE_Practice.sav",
+          "save_size_bytes": 131072,
+          "semanticVersion": "0.0.128"
+        },
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.128",
+        "url": "https://github.com/Rynnoo/rpm-releases/releases/download/rpm-20261126-183449-0abda934/usamune-practice-Usamune_Practice_v128_JP.bps",
+        "fileName": "Usamune_Practice_v128_JP.bps",
+        "sha256": "FB1D9D59BB33B08CD5CE20D6D823A15C6169192B3C60B25E2948575899F10FD9",
+        "sizeBytes": 358812,
+        "notes": "",
+        "publishedAt": "2026-11-26T18:34:49.3252885+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "SM64 / Practice ROM",
+        "shortName": "Usamune Practice",
+        "versionLabel": "v128",
+        "summary": "",
+        "features": [],
+        "setup": [],
+        "accent": "#CB5A36",
+        "mark": "UP"
       }
     }
   ]
